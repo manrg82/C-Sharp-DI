@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dam2\\Documents\\C#\\TareaMario\\TareaMario\\TareaMario.csproj",
+      "projectUniqueName": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj",
       "projectName": "TareaMario",
-      "projectPath": "C:\\Users\\dam2\\Documents\\C#\\TareaMario\\TareaMario\\TareaMario.csproj",
+      "projectPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj",
       "packagesPath": "C:\\Users\\dam2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dam2\\Documents\\C#\\TareaMario\\TareaMario\\obj\\",
+      "outputPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dam2\\AppData\\Roaming\\NuGet\\NuGet.Config",

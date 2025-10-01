@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C#\\TareaMario\\",
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDE5BD93-615B-4177-8223-04142EE4B961}|TareaMario\\TareaMario.csproj|c:\\users\\dam2\\documents\\c#\\tareamario\\tareamario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDE5BD93-615B-4177-8223-04142EE4B961}|TareaMario\\TareaMario.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\tareamario\\tareamario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDE5BD93-615B-4177-8223-04142EE4B961}|TareaMario\\TareaMario.csproj|solutionrelative:tareamario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C#\\TareaMario\\TareaMario\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\Program.cs",
               "RelativeDocumentMoniker": "TareaMario\\Program.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C#\\TareaMario\\TareaMario\\Program.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\Program.cs",
               "RelativeToolTip": "TareaMario\\Program.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAiwLcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T11:24:05.457Z",
               "EditorCaption": ""
