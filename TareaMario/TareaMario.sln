@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaMario", "TareaMario\TareaMario.csproj", "{DDE5BD93-615B-4177-8223-04142EE4B961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE5BD93-615B-4177-8223-04142EE4B961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE5BD93-615B-4177-8223-04142EE4B961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE5BD93-615B-4177-8223-04142EE4B961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE5BD93-615B-4177-8223-04142EE4B961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA12E2C9-B58D-4E67-A845-D5A299AA1F46}
+	EndGlobalSection
+EndGlobal

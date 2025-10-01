@@ -1,0 +1,14 @@
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\bin\Debug\net8.0\TareaC#1.exe
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\bin\Debug\net8.0\TareaC#1.deps.json
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\bin\Debug\net8.0\TareaC#1.runtimeconfig.json
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\bin\Debug\net8.0\TareaC#1.dll
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\bin\Debug\net8.0\TareaC#1.pdb
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.AssemblyInfoInputs.cache
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.AssemblyInfo.cs
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.csproj.CoreCompileInputs.cache
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.dll
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\refint\TareaC#1.dll
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.pdb
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\TareaC#1.genruntimeconfig.cache
+C:\Users\dam2\Documents\C#\TareaC#1\TareaC#1\obj\Debug\net8.0\ref\TareaC#1.dll
