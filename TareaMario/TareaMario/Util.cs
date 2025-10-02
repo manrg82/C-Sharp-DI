@@ -1,6 +1,5 @@
 ﻿using System;
-namespace Util
-{
+
     public class Util
     {
         public Util()
@@ -194,4 +193,3 @@ namespace Util
             callMenu(arrBool, arrInt, posx, posy, hp, mlPoc);
         }
     }
-}
