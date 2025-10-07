@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JuegoSpiderman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b43c2a652f3887bfaff3b55655dbf5a849b69557")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dabeb039fafc13e27f6287645832a135fd3055b")]
 [assembly: System.Reflection.AssemblyProductAttribute("JuegoSpiderman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JuegoSpiderman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
