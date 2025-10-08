@@ -1,0 +1,5 @@
+C:\Users\dam2\Documents\C-Sharp-DI\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam2\Documents\C-Sharp-DI\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.AssemblyInfoInputs.cache
+C:\Users\dam2\Documents\C-Sharp-DI\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.AssemblyInfo.cs
+C:\Users\dam2\Documents\C-Sharp-DI\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.csproj.CoreCompileInputs.cache
+C:\Users\dam2\Documents\C-Sharp-DI\JuegoSpiderman\JuegoSpiderman\obj\Debug\net8.0\JuegoSpiderman.sourcelink.json
