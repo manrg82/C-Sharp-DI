@@ -2,7 +2,7 @@
 
 public abstract class Tile
 {
-    char displayChar;
+    private char displayChar;
 	public char getDisplayChar();
 
 

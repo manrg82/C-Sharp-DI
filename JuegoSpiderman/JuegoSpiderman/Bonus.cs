@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Bonus extends Tile
+public class Bonus private extends Tile
 {
 	public Bonus()
 	{

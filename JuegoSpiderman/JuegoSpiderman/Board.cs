@@ -1,45 +1,54 @@
 ﻿
 
 using System;
+using System.Security.Cryptography;
 
 public class Board
 {
 	private Tile[][] gameBoard;
 	private char[][] displayBoard;
-	List<int[2]> lastPos;
+    private List<int[]> lastPos;
 	private int diff;
 	public Board(int d)
 	{
 		this.gameBoard=new Tile[15][];
 		this.displayBoard=new char[15][];
-		this.lastPos=new List<int[2]> ();
+		this.lastPos=new List<int[]> ();
 		this.diff=d;
     }
-    static void printArray(char[][] arr)
+    public char[][] getDisplayBoard()
+    {
+        return this.displayBoard;
+    }
+    public Tile[][] getGameBoard()
+    {
+        return this.gameBoard;
+    }
+    public void printArray(char[][] arr)
     {
         for (int i = 0; i < arr.Length; i++)
         {
             for (int j = 0; j < arr[i].Length; j++)
             {
-                console.Write(" "+arr[i][j]);
+                Console.Write(" "+arr[i][j]);
             }
             Console.WriteLine();
         }
     }
     public void generateBoards()
 	{
-		for(int i=0;i<gameBoard.length();i++)
+		for(int i=0;i<gameBoard.Length;i++)
 		{
-			int e = null;
-			this.visualBoard[i]=new Tile[15];
+			int e;
+			this.gameBoard[i]=new Tile[15];
 			this.displayBoard[i]=new char[15];
 			for(int j=0;j<15;j++)
 			{
-				e=Random.RandomNumberGenerator.GetInt32(0, 3)
+				e = RandomNumberGenerator.GetInt32(0, 3);
 				case (e):
 					0:
-						this.visualBoard[i][j] = new Octopus();
-						this.displayBoard[i][j] = visualBoard[i][j].getDispayChar();
+						this.gameBoard[i][j] = (Tile)(new Octopus());
+						this.displayBoard[i][j] = gameBoard[i][j].getDisplayChar;
                     break;
 					1:
 						this.visualBoard[i][j] = new Goblin();

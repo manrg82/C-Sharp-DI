@@ -1,9 +1,10 @@
 ﻿using System;
 
-public class Octopus extends Enemy
+public class Octopus : Enemy
 {
 	public Octopus()
     {
+    base();
     this.displayChar = 'O;
     this.dmg = 1;
     }

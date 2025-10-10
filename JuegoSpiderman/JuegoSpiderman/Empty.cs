@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Empty extends Tile
+public class Empty private extends Tile
 {
 	protected bool isVisited;
 	protected bool isExit;

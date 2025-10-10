@@ -1,10 +1,10 @@
 ﻿using System;
 
-public class Mysterio extends Enemy
+public class Goblin private extends Enemy
 {
-	public Mysterio()
+	public Goblin()
     {
-    this.displayChar = 'M';
+    this.displayChar = 'G;
     this.dmg = 1;
     }
     public int getDmg()

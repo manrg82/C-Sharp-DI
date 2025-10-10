@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {}
+    "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {
+    "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
+        "projectUniqueName": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
         "projectName": "JuegoSpiderman",
-        "projectPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
-        "packagesPath": "C:\\Users\\dam2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\obj\\",
+        "projectPath": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dam2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
