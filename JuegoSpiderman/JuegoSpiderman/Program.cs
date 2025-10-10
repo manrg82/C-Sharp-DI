@@ -1,5 +1,4 @@
 ﻿using System;
-using 
 public class Game
 {
     public Game()
@@ -9,7 +8,7 @@ public class Game
     {
         Board bd = new Board(1);
         bd.generateBoards();
-        bd.printDisplayBoard();
+        bd.printArray(bd.displayBoard());
     }
 
 }

@@ -7,43 +7,12 @@
       "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:Board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\juegospiderman\\juegospiderman\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\Util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Civil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Mysterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mysterio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\juegospiderman\\juegospiderman\\octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,24 +22,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Board.cs",
-              "RelativeDocumentMoniker": "Board.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Board.cs",
-              "RelativeToolTip": "Board.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADkAAABAAAAAAAAAAA==",
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Util.cs",
+              "RelativeDocumentMoniker": "JuegoSpiderman\\Util.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Util.cs",
+              "RelativeToolTip": "JuegoSpiderman\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T12:35:52.289Z",
+              "WhenOpened": "2025-10-10T10:51:25.163Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Octopus.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Octopus.cs",
+              "RelativeDocumentMoniker": "JuegoSpiderman\\Octopus.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Octopus.cs",
+              "RelativeToolTip": "JuegoSpiderman\\Octopus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T10:54:19.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
@@ -80,120 +63,9 @@
               "RelativeDocumentMoniker": "JuegoSpiderman\\Program.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Program.cs",
               "RelativeToolTip": "JuegoSpiderman\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T12:30:04.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Util.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\Util.cs",
-              "RelativeDocumentMoniker": "..\\TareaMario\\TareaMario\\Util.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\Util.cs",
-              "RelativeToolTip": "..\\TareaMario\\TareaMario\\Util.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T12:26:30.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tile.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Tile.cs",
-              "RelativeDocumentMoniker": "Tile.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Tile.cs",
-              "RelativeToolTip": "Tile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Civil.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Civil.cs",
-              "RelativeDocumentMoniker": "Civil.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Civil.cs",
-              "RelativeToolTip": "Civil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Empty.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Empty.cs",
-              "RelativeDocumentMoniker": "Empty.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Empty.cs",
-              "RelativeToolTip": "Empty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Bonus.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Bonus.cs",
-              "RelativeDocumentMoniker": "Bonus.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Bonus.cs",
-              "RelativeToolTip": "Bonus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Octopus.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Octopus.cs",
-              "RelativeDocumentMoniker": "Octopus.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Octopus.cs",
-              "RelativeToolTip": "Octopus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Goblin.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Goblin.cs",
-              "RelativeDocumentMoniker": "Goblin.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Goblin.cs",
-              "RelativeToolTip": "Goblin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mysterio.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Mysterio.cs",
-              "RelativeDocumentMoniker": "Mysterio.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Mysterio.cs",
-              "RelativeToolTip": "Mysterio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Game.cs",
-              "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\JuegoSpiderman\\Game.cs",
-              "RelativeToolTip": "Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T10:57:19.127Z",
               "EditorCaption": ""
             }
           ]

@@ -1,11 +1,10 @@
 ﻿
 
 using System;
-
 public class Board
 {
 	private Tile[][] gameBoard;
-	private char[][] displayBoard;
+	public char[][] displayBoard;
 	List<int[2]> lastPos;
 	private int diff;
 	public Board(int d)
@@ -15,7 +14,15 @@ public class Board
 		this.lastPos=new List<int[2]> ();
 		this.diff=d;
     }
-    static void printArray(char[][] arr)
+	public Tile[][] getGameBoard()
+	{
+		return this.gameBoard;
+	}
+    public char[][] getDisplayBoard()
+    {
+        return this.displayBoard;
+    }
+    public void printArray(char[][] arr)
     {
         for (int i = 0; i < arr.Length; i++)
         {
