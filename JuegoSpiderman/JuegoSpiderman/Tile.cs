@@ -2,8 +2,8 @@
 
 public abstract class Tile
 {
-    private char displayChar;
-	public char getDisplayChar();
+    protected char displayChar;
+	public abstract char getDisplayChar();
 
 
 }

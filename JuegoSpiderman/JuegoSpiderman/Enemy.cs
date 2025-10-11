@@ -1,7 +1,7 @@
 ﻿using System;
 
-public abstract class Enemy private extends Tile{
+public abstract class Enemy : Tile{
 	protected int dmg;
-	public int getDmg();
-	}
+	public abstract int GetDmg();
+	
 }

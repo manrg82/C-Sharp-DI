@@ -4,11 +4,16 @@ public class Octopus : Enemy
 {
 	public Octopus()
     {
-    base();
-    this.displayChar = 'O;
+    this.displayChar = 'O';
     this.dmg = 1;
     }
-    public int getDmg() {
+    public override char getDisplayChar()
+    {
+        return this.displayChar;
+    }
+
+    public override int GetDmg()
+    {
         return this.dmg;
     }
 }

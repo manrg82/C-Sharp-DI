@@ -1,12 +1,12 @@
 ﻿using System;
 
-public class Empty private extends Tile
+public class Empty :Tile
 {
 	protected bool isVisited;
 	protected bool isExit;
 	public Empty()
 	{
-		super('N')
+		this.displayChar = ('N');
 		this.isExit = false;
 		this.isVisited = false;
 	}
@@ -14,13 +14,18 @@ public class Empty private extends Tile
 	{
 		if (!isExit)
 		{
-			this.setDisplayChar('X');
+			this.displayChar = ('X');
 		}
 		this.isVisited = true;
 	}
-	public void setExit()
+    public override char getDisplayChar()
+    {
+        return this.displayChar;
+    }
+
+    public void setExit()
 	{
-		this.setDisplayChar('E');
+		this.displayChar=('E');
 		this.isExit = true;
 	}
 }
