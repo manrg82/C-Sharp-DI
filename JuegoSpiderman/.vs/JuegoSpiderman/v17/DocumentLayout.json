@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,8 +79,7 @@
               "RelativeToolTip": "JuegoSpiderman\\Tile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T16:38:15.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T16:38:15.189Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "JuegoSpiderman\\Octopus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T20:25:55.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T20:25:55.37Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "JuegoSpiderman\\Empty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:58:59.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T13:58:59.392Z"
             },
             {
               "$type": "Document",
@@ -142,18 +139,17 @@
               "RelativeToolTip": "JuegoSpiderman\\Bonus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:17:18.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T14:17:18.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Board.cs",
               "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Board.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Board.cs",
               "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Board.cs",
               "RelativeToolTip": "JuegoSpiderman\\Board.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T20:09:51.242Z",
               "EditorCaption": ""
@@ -168,8 +164,7 @@
               "RelativeToolTip": "JuegoSpiderman\\Civil.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T16:39:14.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T16:39:14.227Z"
             }
           ]
         },
@@ -187,18 +182,17 @@
               "RelativeToolTip": "JuegoSpiderman\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:19:58.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T14:19:58.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Program.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Program.cs",
               "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Program.cs",
               "RelativeToolTip": "JuegoSpiderman\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T12:30:04.91Z",
               "EditorCaption": ""
@@ -213,8 +207,7 @@
               "RelativeToolTip": "..\\TareaMario\\Util.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAH4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:39:38.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T14:39:38.49Z"
             }
           ]
         }
