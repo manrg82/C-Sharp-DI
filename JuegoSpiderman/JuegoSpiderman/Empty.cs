@@ -6,7 +6,7 @@ public class Empty :Tile
 	protected bool isExit;
 	public Empty()
 	{
-		this.displayChar = ('N');
+		this.displayChar = ('#');
 		this.isExit = false;
 		this.isVisited = false;
 	}

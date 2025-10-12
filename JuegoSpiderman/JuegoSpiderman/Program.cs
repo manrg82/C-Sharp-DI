@@ -11,6 +11,8 @@ public class Game
         Board bd = new Board(5);//dificultad va de 1-5 mayor a menor
         bd.generateBoards();
         bd.printArray(bd.getDisplayBoard());
-        bd.startGame();
+        Console.WriteLine();
+        bd.printArray(bd.getDisplayBoard());
+        //bd.startGame();
     }
 }

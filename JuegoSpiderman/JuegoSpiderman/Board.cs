@@ -93,7 +93,7 @@ public class Board
             }
         }
     }
-    public void startGame(int hp,int civ,int posy,int posx
+    /**public void startGame(int hp,int civ,int posy,int posx
         )
     {   
         
@@ -172,5 +172,5 @@ public class Board
                 Console.WriteLine("Opción no válida. Inténtalo de nuevo.");
                 break;
         }
-    }
+    }**/
 }
