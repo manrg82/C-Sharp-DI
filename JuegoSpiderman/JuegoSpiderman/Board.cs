@@ -8,10 +8,10 @@ public class Board
 	private char[][] displayBoard;
 	private List<int[]> lastPos;
 	private int diff;
-	public Board(int d)
+	public Board(int d, Tile[][] tl, char[][] ch, List<int[]> lastpos)
 	{
-		this.gameBoard = new Tile[15][];
-		this.displayBoard = new char[15][];
+		this.gameBoard = tl;
+		this.displayBoard = ch;
 		this.lastPos = new List<int[]>();
 		this.diff = d;
 	}
