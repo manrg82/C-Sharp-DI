@@ -1,0 +1,75 @@
+﻿<Window x:Class="UserInterface14102025.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterface14102025"
+        mc:Ignorable="d"
+        Title="Registro de Personas" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Profesión:" Margin="0,0,0,5"/>
+            <TextBox Grid.Row="1" Name="txtProfesion" Margin="0,0,0,10"/>
+            <TextBlock Grid.Row="2" Text="Nº Hermanos:" Margin="0,0,0,5"/>
+            <TextBox Grid.Row="3" Name="txtNumHermanos" HorizontalAlignment="Center" Width="100" Margin="0,0,0,10"/>
+            <ComboBox Grid.Row="4" Width="150" >
+                <ComboBoxItem Content="Menor de 15"/>
+                <ComboBoxItem Content="De 15 a 18"/>
+                <ComboBoxItem Content="Mayor de 18"/>
+            </ComboBox>
+            <TextBlock Grid.Row="5" Text="Sexo:" Margin="0,0,0,5" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <RadioButton Grid.Row="6" Content="Masculino" HorizontalAlignment="Left" VerticalAlignment="Center" GroupName="Genero" Margin="0,0,0,0"/>
+            <RadioButton Grid.Row="6" Content="Femenino" HorizontalAlignment="Center" VerticalAlignment="Center" GroupName="Genero" Margin="0,0,0,0"/>
+            <CheckBox Grid.Row="7" Content="¿Practica algun deporte?" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,5"/>
+            <ComboBox Grid.Row="7" Width="130" Height="25" HorizontalAlignment="Right" >
+                <ComboBoxItem Content="Ninguno"/>
+                <ComboBoxItem Content="Futbol"/>
+                <ComboBoxItem Content="Baloncesto"/>
+                <ComboBoxItem Content="Tenis"/>
+                <ComboBoxItem Content="Otros"/>
+            </ComboBox>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/> 
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Marque del 1 al 10 su aficion a:" Margin="0,0,0,10"/>
+            <TextBlock Grid.Row="1" Text="Compras" Margin="0,0,0,5"/>
+            <Slider Grid.Row="2" Name="sldCompras" HorizontalAlignment="Left" Width="250" Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Margin="0,0,0,10"/>
+            <TextBlock Grid.Row="3" Text="{Binding ElementName=sldCompras,Path=Value, StringFormat=' {0:f0}'}" Margin="0,0,0,5"/>
+            <TextBlock Grid.Row="4" Text="Ver la televisión" Margin="0,0,0,5"/>
+            <Slider Grid.Row="5" Name="sldtv" HorizontalAlignment="Left" Width="250" Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Margin="0,0,0,10"/>
+            <TextBlock Grid.Row="6" Text="{Binding ElementName=sldtv,Path=Value, StringFormat=' {0:f0}'}" Margin="0,0,0,5"/>
+            <TextBlock Grid.Row="7" Text="Ir al cine" Margin="0,0,0,5"/>
+            <Slider Grid.Row="8" Name="sldcine" HorizontalAlignment="Left" Width="250" Minimum="1" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Margin="0,0,0,10"/>
+            <TextBlock Grid.Row="9" Text="{Binding ElementName=sldCine,Path=Value, StringFormat=' {0:f0}'}" Margin="0,0,0,5"/>
+            <Button Grid.Row="9" Content="Salir" Width="100" Height="30" HorizontalAlignment="Center" Click="Salir_CLick" VerticalAlignment="Top" Margin="0,10"/>
+        </Grid>
+    </Grid>
+</Window>
