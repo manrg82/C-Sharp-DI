@@ -1,8 +1,13 @@
 ﻿using System;
 
-public class Civil extends Tile
+public class Civil : Tile
 {
 	public Civil(){
-		super('C');
+		this.displayChar=('C');
 	}
+	public override char getDisplayChar()
+	{
+		return this.displayChar;
+	}
+
 }

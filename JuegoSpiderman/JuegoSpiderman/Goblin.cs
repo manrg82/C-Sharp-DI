@@ -1,14 +1,21 @@
 ﻿using System;
 
-public class Goblin extends Enemy
+public class Goblin : Enemy
 {
 	public Goblin()
     {
-    this.displayChar = 'G;
+    this.displayChar = 'G';
     this.dmg = 1;
     }
-    public int getDmg()
+
+    public override char getDisplayChar()
     {
-    return this.dmg;
+        return this.displayChar;
     }
+
+    public override int GetDmg()
+    {
+        return this.dmg;
+    }
+
 }
