@@ -1,27 +1,19 @@
 ﻿using System;
 
-public class Empty :Tile
+public class Empty : Tile
 {
 	protected bool isVisited;
-	protected bool isExit;
+	public bool isExit;
 	public Empty()
 	{
 		this.displayChar = ('#');
 		this.isExit = false;
-		this.isVisited = false;
 	}
-	public void visit()
+	
+	public override char getDisplayChar()
 	{
-		if (!isExit)
-		{
-			this.displayChar = ('X');
-		}
-		this.isVisited = true;
+		return this.displayChar;
 	}
-    public override char getDisplayChar()
-    {
-        return this.displayChar;
-    }
 
     public void setExit()
 	{
