@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|solutionrelative:juegospiderman\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78EA8314-1B0D-46E3-9093-AF45CA158C3A}|JuegoSpiderman\\JuegoSpiderman.csproj|z:\\repositorios\\c-sharp-di\\juegospiderman\\juegospiderman\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Board.cs",
               "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Board.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Board.cs",
               "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Board.cs",
               "RelativeToolTip": "JuegoSpiderman\\Board.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwF0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAEwBoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T20:09:51.242Z",
               "EditorCaption": ""
@@ -171,13 +171,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game.cs",
               "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Game.cs",
               "RelativeDocumentMoniker": "JuegoSpiderman\\Game.cs",
-              "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Game.cs",
-              "RelativeToolTip": "JuegoSpiderman\\Game.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAApAAAAAAAAAA==",
+              "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\Game.cs*",
+              "RelativeToolTip": "JuegoSpiderman\\Game.cs*",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwMAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T20:27:19.165Z",
               "EditorCaption": ""

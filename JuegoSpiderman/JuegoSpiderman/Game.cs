@@ -43,7 +43,7 @@ namespace JuegoSpiderman
 
         // Checks the current tile and applies the corresponding logic (enemies, civilians, exit, empty).
         
-        private void checkTile(Tile[][] tl, char[][] ch, Board bd)
+        private void checkTile(List<int[]> lastpos,Tile[][] tl, char[][] ch, Board bd)
         {
             if (tl[this.posx][this.posy] is Goblin)
             {
@@ -55,9 +55,20 @@ namespace JuegoSpiderman
             else if (tl[this.posx][this.posy] is Octopus)
             {
                 Console.WriteLine("You've found a Dr Octopus in coords: " + this.posx + "|" + this.posy);
-                Console.WriteLine("In fighting Dr Octopus you lose 1 HP");
+                Console.WriteLine("In fighting Dr Octopus you lose 1 HP and get sent back 2 tiles");
                 bd.setHp(bd.getHp() - 1);
                 tl[this.posx][this.posy] = new Empty();
+                int[] lp = null;
+                if (lastpos.Count >= 2)
+                {
+                    lp = lastpos[lastpos.Count - 2];
+                }
+                else
+                {
+                    lp = new int[]{0,0};
+                }
+                this.posx= lp[0];
+                this.posy= lp[1];
             }
             else if (tl[this.posx][this.posy] is Mysterio)
             {
@@ -71,7 +82,7 @@ namespace JuegoSpiderman
             }
             else if (tl[this.posx][this.posy] is Civil)
             {
-                Console.WriteLine("You've found a Civil in coords: " + this.posx + "|" + this.posy + " and you've managed to rescue them!");
+                Console.WriteLine("You've found a Civilian in coords: " + this.posx + "|" + this.posy + " and you've managed to rescue them!");
                 Console.WriteLine("You gain 1 civilian point");
                 this.civ += 1;
                 tl[this.posx][this.posy] = new Empty();
@@ -107,7 +118,7 @@ namespace JuegoSpiderman
                 return;
             }
             Console.Clear();
-            checkTile(tl,ch, bd);
+            checkTile(lastpos,tl,ch, bd);
             Console.WriteLine("HP: " + bd.getHp() + " | Civilians Rescued: " + this.civ);
             bd.printArray(bd.getDisplayBoard());
             Console.WriteLine("Elige una opción:");
