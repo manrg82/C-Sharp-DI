@@ -7,33 +7,51 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
     <Grid>
-        
-            <DockPanel HorizontalAlignment="Left" LastChildFill="False" Background="DarkGreen" Height="500">
-                <Image Source="C:\Users\dam2\Downloads\monke.jpg" DockPanel.Dock="Top"  Height="100" Width="100"/>
-                <Button DockPanel.Dock="Top" Height="50">Home</Button>
-                <Button DockPanel.Dock="Top" Height="50">Dashboard</Button>
-                <Button DockPanel.Dock="Top" Height="50">Reports</Button>
-                <Button DockPanel.Dock="Top" Height="50">Settings</Button>
-            </DockPanel>
-        <WrapPanel HorizontalAlignment="Right">
-            <DockPanel HorizontalAlignment="Right" VerticalAlignment="Top" Width="700" Height="70">
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Background="DarkGreen" Height="500">
+            <Image Source="C:\Users\dam2\Downloads\monke.jpg" DockPanel.Dock="Top"  Height="100" Width="130"/>
+            <Button DockPanel.Dock="Top" Height="50">Home</Button>
+            <Button DockPanel.Dock="Top" Height="50">Dashboard</Button>
+            <Button DockPanel.Dock="Top" Height="50">Reports</Button>
+            <Button DockPanel.Dock="Top" Height="50">Settings</Button>
+        </DockPanel>
+        <WrapPanel HorizontalAlignment="Right" Width="670">
+            <DockPanel HorizontalAlignment="Right" VerticalAlignment="Top" Width="670" Height="70">
                 <Label DockPanel.Dock="Left" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold">Mi Panel</Label>
                 <Label DockPanel.Dock="Right" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" Width="50" HorizontalContentAlignment="Center">--</Label>
                 <Label DockPanel.Dock="Right" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20" FontWeight="Bold" >April 24, 2024</Label>
             </DockPanel>
+            <Label Width="13"/>
             <WrapPanel Width="350" Height="400">
-                <DockPanel  HorizontalAlignment="Right" VerticalAlignment="Center" Width="350" Height="70">
-                    <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left" Height="70" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top">asdf</Label>
-                    <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left" Height="70" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top">asdf</Label>
-
+                <DockPanel  HorizontalAlignment="Right" VerticalAlignment="Center" Width="350" Height="90">
+                    <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left" Height="90" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top">asdf</Label>
+                    <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left" Height="90" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top">asdf</Label>
                 </DockPanel>
-                <Label></Label>
-                <Button Height="70" Width="350">Quick Access</Button>
+                <Label Width="350"></Label>
+                <Label Width="10"/>
+                <Button Height="110" Width="330">Quick Access</Button>
+                <Label Width="10"/>
+                <Label Width="350"></Label>
+                <Label Width="10"/>
+                <Button Height="110" Width="100">Statistics</Button>
+                <Label Width="15"/>
+                <Button Height="110" Width="100">Statistics</Button>
+                <Label Width="15"/>
+                <Button Height="110" Width="100">Statistics</Button>
             </WrapPanel>
-            <DockPanel  HorizontalAlignment="Right" VerticalAlignment="Center" Width="350" Height="400">
-            
-            </DockPanel>
+            <Label Width="15"/>
+            <WrapPanel  HorizontalAlignment="Right" VerticalAlignment="Center" Width="280" Height="400">
+                <Label Width="280" Height="90" VerticalAlignment="top" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left">Contenido</Label>
+                <Label Width="15"/>
+                <WrapPanel Width="280" Height="300">
+                    <Label Width="130" Height="120" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left">Statistic</Label>
+                    <Label Width="20"></Label>
+                    <Label Width="130" Height="100" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left">75</Label>
+                    <Label HorizontalAlignment="Left" Width="150" Height="20"></Label>
+                    <Label Width="130" Height="80" FontSize="20" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Background="MediumPurple" Content="300"/>
+                    <Label Width="130" Height="160" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Background="MediumPurple" DockPanel.Dock="Left">Statistic</Label>
+                    <Label Width="130" Height="80" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold" Background="MediumPurple" Content="200"/>
+                </WrapPanel>
+            </WrapPanel>
         </WrapPanel>
-         
     </Grid>
 </Window>

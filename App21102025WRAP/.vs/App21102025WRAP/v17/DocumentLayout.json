@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6B7557D-9AF9-4AAB-A61B-26C66EA10902}|App21102025WRAP\\App21102025WRAP.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\app21102025wrap\\app21102025wrap\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C6B7557D-9AF9-4AAB-A61B-26C66EA10902}|App21102025WRAP\\App21102025WRAP.csproj|solutionrelative:app21102025wrap\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B7557D-9AF9-4AAB-A61B-26C66EA10902}|App21102025WRAP\\App21102025WRAP.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\app21102025wrap\\app21102025wrap\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B7557D-9AF9-4AAB-A61B-26C66EA10902}|App21102025WRAP\\App21102025WRAP.csproj|solutionrelative:app21102025wrap\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 109,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "App21102025WRAP\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml",
-              "RelativeToolTip": "App21102025WRAP\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T07:22:15.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "App21102025WRAP\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml.cs",
-              "RelativeToolTip": "App21102025WRAP\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T07:22:15.923Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -67,9 +38,42 @@
               "RelativeDocumentMoniker": "App21102025WRAP\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml",
               "RelativeToolTip": "App21102025WRAP\\MainWindow.xaml",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxoAAADjAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-21T07:22:44.184Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "ccf2d545-4630-418a-bfd3-514e7c0f0715",
+        "Display": 1,
+        "X": 629,
+        "Y": -16,
+        "Width": 588,
+        "Height": 695,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "App21102025WRAP\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\App21102025WRAP\\App21102025WRAP\\MainWindow.xaml",
+              "RelativeToolTip": "App21102025WRAP\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T07:22:15.98Z",
               "EditorCaption": ""
             }
           ]
