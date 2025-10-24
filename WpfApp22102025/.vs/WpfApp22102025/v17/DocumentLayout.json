@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp22102025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AF144B7-0D73-4C26-B6D6-750FE685D46D}|WpfApp22102025\\WpfApp22102025.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\wpfapp22102025\\wpfapp22102025\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8AF144B7-0D73-4C26-B6D6-750FE685D46D}|WpfApp22102025\\WpfApp22102025.csproj|solutionrelative:wpfapp22102025\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8AF144B7-0D73-4C26-B6D6-750FE685D46D}|WpfApp22102025\\WpfApp22102025.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\wpfapp22102025\\wpfapp22102025\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8AF144B7-0D73-4C26-B6D6-750FE685D46D}|WpfApp22102025\\WpfApp22102025.csproj|solutionrelative:wpfapp22102025\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF144B7-0D73-4C26-B6D6-750FE685D46D}|WpfApp22102025\\WpfApp22102025.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\wpfapp22102025\\wpfapp22102025\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8AF144B7-0D73-4C26-B6D6-750FE685D46D}|WpfApp22102025\\WpfApp22102025.csproj|solutionrelative:wpfapp22102025\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp22102025\\WpfApp22102025\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp22102025\\MainWindow.xaml",
@@ -38,11 +38,6 @@
               "EditorCaption": ""
             }
           ]
-        },
-        {
-          "DockedHeight": 250,
-          "SelectedChildIndex": -1,
-          "Children": []
         }
       ]
     },
@@ -52,11 +47,11 @@
       "FloatingWindowState": {
         "Id": "68479cae-8aa0-483c-ab2f-25d5eae0e250",
         "Display": 0,
-        "X": -460,
-        "Y": 145,
-        "Width": 1870,
-        "Height": 869,
-        "WindowState": 0
+        "X": -1163,
+        "Y": -65,
+        "Width": 2338,
+        "Height": 1086,
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
@@ -65,7 +60,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp22102025\\WpfApp22102025\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp22102025\\MainWindow.xaml",
