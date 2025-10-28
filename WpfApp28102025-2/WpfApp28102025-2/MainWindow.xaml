@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp28102025_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp28102025_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl TabStripPlacement="Left">
+            <TabItem Header="Inicio" >
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Iniciar Sesión">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Registrarse">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Lista de la compra">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Mi Despensa">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Mis Recetas">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Buscar Productos">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Mensajes">
+                <Grid Background="Gray">
+                    <TextBlock Text="Content of Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
