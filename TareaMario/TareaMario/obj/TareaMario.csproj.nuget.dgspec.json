@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj": {}
+    "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj": {
+    "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj",
+        "projectUniqueName": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj",
         "projectName": "TareaMario",
-        "projectPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj",
-        "packagesPath": "C:\\Users\\dam2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaMario\\TareaMario\\obj\\",
+        "projectPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\TareaMario\\TareaMario\\TareaMario.csproj",
+        "packagesPath": "C:\\Users\\b15-05m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\TareaMario\\TareaMario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dam2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b15-05m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

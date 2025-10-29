@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {}
+    "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {}
   },
   "projects": {
-    "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {
+    "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
+        "projectUniqueName": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
         "projectName": "JuegoSpiderman",
-        "projectPath": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
-        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "Z:\\Repositorios\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\obj\\",
+        "projectPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\JuegoSpiderman.csproj",
+        "packagesPath": "C:\\Users\\b15-05m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\JuegoSpiderman\\JuegoSpiderman\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b15-05m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
