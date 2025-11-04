@@ -31,19 +31,15 @@
                                 <Label Content="Edad" HorizontalAlignment="Center" FontSize="16"/>
                                 <TextBox Background="White" x:Name="txtEdad" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
                             </StackPanel>
-                        <DataGrid x:Name="dataGridUsuarios" Grid.Column="1" Margin="15" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectionChanged="dataGridUsuarios_SelectionChanged">
-                            <DataGrid.Columns>
-                                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
-                                <DataGridTextColumn Header="Apellido" Binding="{Binding Apellido}" Width="*"/>
-                                <DataGridTextColumn Header="Edad" Binding="{Binding Edad}" Width="*"/>
-                            </DataGrid.Columns>
+                        <DataGrid x:Name="dataGridPersonas" Grid.Column="1" Margin="15" SelectionChanged="dataGridPersonas_SelectionChanged">
+                            
                         </DataGrid>
                     </Grid>
                      
                     <Grid Grid.Row="1" Margin="10">
-                        <Button x:Name="btnAgregar" Content="Agregar" Width="100" Height="30" HorizontalAlignment="Left" Margin="10" Click="btnAgregar_Click"/>
-                        <Button x:Name="btnModificar" Content="Modificar" Width="100" Height="30" HorizontalAlignment="Center" Margin="10" Click="btnModificar_Click"/>
-                        <Button x:Name="btnEliminar" Content="Eliminar" Width="100" Height="30"  HorizontalAlignment="Right" Margin="10" Click="btnEliminar_Click"/>
+                        <Button x:Name="btnAgregar" Content="Agregar" Width="100" Height="30" HorizontalAlignment="Left" Margin="10" />
+                        <Button x:Name="btnModificar" Content="Modificar" Width="100" Height="30" HorizontalAlignment="Center" Margin="10" />
+                        <Button x:Name="btnEliminar" Content="Eliminar" Width="100" Height="30"  HorizontalAlignment="Right" Margin="10" Click="btnEliminar_Click_1"/>
                     </Grid>
                 </Grid>
             </TabItem>
