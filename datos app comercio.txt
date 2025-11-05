@@ -1,0 +1,15 @@
+idea:
+-hacer las clases de otra manera, integrar proy intermodular con la dualizacion
+-comercio internacional no encuentran trabajo
+-contactar con las empresas desde min 1 para demostrar que se puede aportar y abrir mercados internacionales para ellas
+-el equipo docente plantea retos a los alumnos, hay interconexion entre alumnos, docentes y empresas. 
+-Los retos son tareas que el equipo docente plantea al alumnado para que la empresa vea util al tecnico de comercio internacional (buscar nuevos mercados...), hacer que empresas de la zona salgan a vender fuera
+-puede haber muchos centros educativos y empresas (la empresa puede ver todos los retos, las soluciones planteadas a retos anteriores y plantear ideas)(la empresa puede proponer retos a los docentes los cuales los plantean a el alumnado)
+-el profesorado puede ver los alumnos y puede asignar a los usuarios a las empresas que quiera y puede ver sus datos
+-Hay 4 apartados ideados:
+	-Talent lab: contiene los resultados que el alumno genera a traves de los retos de cada empresa (comun a todas los usuarios, empresas centros y etcetera)
+	-Retos: los propios retos planteados a los alumnos del profesorado que usan para proponer ideas a la empresa (comun a todas los usuarios, empresas centros y etcetera)
+	-Empresas: "Base de datos de empresas" con las cuales los alumnos y profesorado ha contactado (datos especificos de cada empresa, ej: exportacion/importacion/ambas,
+	 actividad comercial externa, gerente, nombre...)(esta es solo accesible a usuarios del centro local, es decir, centros exteriores no pueden acceder) Una empresa solo puede trabajar con un grupo (1/n)
+	-Grupos: grupos de trabajo junto a la empresa con la que trabajan para poder ver un esquema de las ideas que han generado (relaciona grupo-empresa-talent lab) contiene datos de todos los integrantes (su curriculum y datos para poder enviarlos a diferentes empresas, cada persona tiene los suyos)
+	cada grupo puede estar en varias empresas y puede cambiar la/s empresas en las que pueden estar colaborando (1/n) los grupos son creados por el profesorado. Un alumno solo puede estar en un grupo (n/1)
