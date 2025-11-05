@@ -37,9 +37,9 @@
                     </Grid>
                      
                     <Grid Grid.Row="1" Margin="10">
-                        <Button x:Name="btnAgregar" Content="Agregar" Width="100" Height="30" HorizontalAlignment="Left" Margin="10" />
-                        <Button x:Name="btnModificar" Content="Modificar" Width="100" Height="30" HorizontalAlignment="Center" Margin="10" />
-                        <Button x:Name="btnEliminar" Content="Eliminar" Width="100" Height="30"  HorizontalAlignment="Right" Margin="10" Click="btnEliminar_Click_1"/>
+                        <Button x:Name="btnAgregar" Content="Agregar" Width="100" Height="30" HorizontalAlignment="Left" Margin="10" Click="btnAgregar_Click"/>
+                        <Button x:Name="btnModificar" Content="Modificar" Width="100" Height="30" HorizontalAlignment="Center" Margin="10" Click="btnModificar_Click"/>
+                        <Button x:Name="btnEliminar" Content="Eliminar" Width="100" Height="30"  HorizontalAlignment="Right" Margin="10" Click="btnEliminar_Click"/>
                     </Grid>
                 </Grid>
             </TabItem>

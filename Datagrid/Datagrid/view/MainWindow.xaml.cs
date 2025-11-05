@@ -47,7 +47,12 @@ namespace Datagrid
         }
         private void dataGridPersonas_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           //txtNombre.Text = "Ha cambiado la seleccion";
+           Persona p=dataGridPersonas.SelectedItem as Persona;
+           if (p != null) {
+                txtNombre.Text = p.Nombre;
+                txtApellido.Text = p.Apellidos;
+                txtEdad.Text = p.Edad.ToString();
+           }
         }
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
         {
@@ -57,9 +62,24 @@ namespace Datagrid
         }
         private void btnAgregar_Click(object sender, RoutedEventArgs e)
         {
-            lsPersonas.Add(new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)));
-            dataGridPersonas.Items.Refresh();
-            start();
+            try
+            {
+                Persona p = dataGridPersonas.SelectedItem as Persona;
+                if (txtNombre.Text == p.Nombre || txtApellido.Text == p.Apellidos || int.Parse(txtEdad.Text) == p.Edad)
+                {
+                    Console.WriteLine("La persona ya existe");
+                }
+                else
+                {
+                    lsPersonas.Add(new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)));
+                    dataGridPersonas.Items.Refresh();
+                    start();
+                }
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("Error al agregar persona");
+            }
         }
         private void btnModificar_Click(object sender, RoutedEventArgs e)
         {
