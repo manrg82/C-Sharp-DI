@@ -39,11 +39,13 @@ namespace Datagrid
             persona=new Persona();
             lsPersonas =persona.getPersonas();
             dataGridPersonas.ItemsSource = lsPersonas;//syncs the list with the datagrid
+            btnModificar.IsEnabled = false;
         }
         public void start() {
             txtNombre.Text = "";
             txtApellido.Text = "";
             txtEdad.Text = "";
+            btnModificar.IsEnabled = false;
         }
         private void dataGridPersonas_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -52,7 +54,12 @@ namespace Datagrid
                 txtNombre.Text = p.Nombre;
                 txtApellido.Text = p.Apellidos;
                 txtEdad.Text = p.Edad.ToString();
-           }
+                btnModificar.IsEnabled = true;
+            }
+            else
+            {
+                btnModificar.IsEnabled = false;
+            }
         }
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
         {
@@ -62,33 +69,34 @@ namespace Datagrid
         }
         private void btnAgregar_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
                 Persona p = dataGridPersonas.SelectedItem as Persona;
-                if (txtNombre.Text == p.Nombre || txtApellido.Text == p.Apellidos || int.Parse(txtEdad.Text) == p.Edad)
+                if (p!=null&&(txtNombre.Text == p.Nombre || txtApellido.Text == p.Apellidos || int.Parse(txtEdad.Text) == p.Edad))
                 {
                     Console.WriteLine("La persona ya existe");
                 }
                 else
                 {
-                    lsPersonas.Add(new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)));
+                    lsPersonas.Add(new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)) as Persona);
                     dataGridPersonas.Items.Refresh();
                     start();
                 }
-            }
-            catch (NullReferenceException)
-            {
-                Console.WriteLine("Error al agregar persona");
-            }
         }
         private void btnModificar_Click(object sender, RoutedEventArgs e)
         {
             Persona p = (Persona)dataGridPersonas.SelectedItem;
-            p.Nombre = txtNombre.Text;
-            p.Apellidos = txtApellido.Text;
-            p.Edad = int.Parse(txtEdad.Text);
-            dataGridPersonas.Items.Refresh();
-            start();
+            if (p==null)
+            {
+                btnModificar.IsEnabled = false;
+            }
+            else{
+                btnModificar.IsEnabled = true;
+                p.Nombre = txtNombre.Text;
+                p.Apellidos = txtApellido.Text;
+                p.Edad = int.Parse(txtEdad.Text);
+                dataGridPersonas.Items.Refresh();
+                start();
+            }
+                
         }
     }
 }
