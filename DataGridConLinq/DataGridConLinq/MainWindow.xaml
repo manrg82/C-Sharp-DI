@@ -14,12 +14,13 @@
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
             <TextBlock Text="Edad Mínima" VerticalAlignment="Center" Margin="10,0"/>
             <TextBox x:Name="txtEdadMinima" Width="100" Margin="10,0"/>
+            <TextBlock Text="Apellido" VerticalAlignment="Center" Margin="10,0"/>
+            <TextBox x:Name="txtApellidoBusqueda" Width="150" Margin="10,0" TextChanged="TxtApellidoBusqueda_TextChanged"/>
             <Button x:Name="btnFiltrar" Content="Filtrar" Click="Filtrar_Click" Margin="10,0"/>
             <Button x:Name="btnMostrarTodo" Content="Mostrar Todos" Margin="10,0" Click="Mostrar_Todos_Click"/>
         </StackPanel>
-        <DataGrid x:Name="dataGridPersonas" Grid.Row="1" AutoGenerateColumns="True">
-
-        </DataGrid>
+        <DataGrid x:Name="dataGridPersonas" Grid.Row="1" AutoGenerateColumns="True"/>
 
     </Grid>
 </Window>
+    

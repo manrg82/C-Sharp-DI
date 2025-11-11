@@ -1,26 +1,18 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DataGridConLinq
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         List<Persona> listaPersonas;
         public MainWindow()
         {
             InitializeComponent();
-            listaPersonas=new List<Persona>
+            listaPersonas = new List<Persona>
             {
                 new Persona("Gabriel","Hernandez",3456),
                 new Persona("Ana","Lopez",23),
@@ -33,26 +25,48 @@ namespace DataGridConLinq
             dataGridPersonas.ItemsSource = listaPersonas;
         }
 
-
         private void Filtrar_Click(object sender, RoutedEventArgs e)
         {
-            if(int.TryParse(txtEdadMinima.Text, out int edadMin))
-            {
-                var filtradas = from p in listaPersonas
-                                where p.Edad >= edadMin
-                                select p;//listaPersonas.Where(persona => persona.Edad >= edadMin); con lambdas
-                dataGridPersonas.ItemsSource = filtradas.ToList();
-            }
-            else
+            // Mostrar mensaje solo si el campo edad no está vacío pero no es un número válido
+            if (!string.IsNullOrWhiteSpace(txtEdadMinima.Text) && !int.TryParse(txtEdadMinima.Text, out _))
             {
                 MessageBox.Show("Por favor, ingrese una edad válida.");
+                return;
             }
+
+            ApplyFilters();
+        }
+
+        private void TxtApellidoBusqueda_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            ApplyFilters();
+        }
+
+        private void ApplyFilters()
+        {
+            IEnumerable<Persona> filtered = listaPersonas;
+
+            // Filtro por edad mínima si se proporciona
+            if (int.TryParse(txtEdadMinima.Text, out int edadMin))
+            {
+                filtered = filtered.Where(p => p.Edad >= edadMin);
+            }
+
+            // Filtro por apellido (contiene, case-insensitive) si se proporciona
+            var apBuscar = txtApellidoBusqueda.Text?.Trim();
+            if (!string.IsNullOrEmpty(apBuscar))
+            {
+                filtered = filtered.Where(p => p.Apellidos?.IndexOf(apBuscar, StringComparison.CurrentCultureIgnoreCase) >= 0);
+            }
+
+            dataGridPersonas.ItemsSource = filtered.ToList();
         }
 
         private void Mostrar_Todos_Click(object sender, RoutedEventArgs e)
         {
+            txtEdadMinima.Clear();
+            txtApellidoBusqueda.Clear();
             dataGridPersonas.ItemsSource = listaPersonas;
-
         }
     }
 }
