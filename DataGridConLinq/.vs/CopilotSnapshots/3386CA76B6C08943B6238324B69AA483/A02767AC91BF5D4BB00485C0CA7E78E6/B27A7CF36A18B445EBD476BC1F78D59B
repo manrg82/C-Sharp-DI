@@ -1,0 +1,94 @@
+﻿using Datagrid.persistence;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataGridConLinq
+{
+    class Persona : INotifyPropertyChanged
+    {
+        public PersonaPersistence pm { get; set; }
+        private int id;
+        private String nombre;
+        private String apellidos;
+        private int edad;
+
+        public int Id 
+        { 
+            get => id; 
+            set 
+            { 
+                id = value; 
+                OnPropertyChanged(nameof(Id)); 
+            } 
+        }
+        
+        public String Nombre 
+        { 
+            get => nombre; 
+            set 
+            { 
+                nombre = value; 
+                OnPropertyChanged(nameof(Nombre)); 
+            } 
+        }
+        
+        public String Apellidos 
+        { 
+            get => apellidos; 
+            set 
+            { 
+                apellidos = value; 
+                OnPropertyChanged(nameof(Apellidos)); 
+            } 
+        }
+        
+        public int Edad 
+        { 
+            get => edad; 
+            set 
+            { 
+                edad = value; 
+                OnPropertyChanged(nameof(Edad)); 
+            } 
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public Persona(int id, String nombre, String apellidos, int edad)
+        {
+            Id = id;
+            Nombre = nombre;
+            Edad = edad;
+            Apellidos = apellidos;
+            pm = new PersonaPersistence();
+        }
+
+        public Persona(String nombre, String apellidos, int edad)
+        {
+            Nombre = nombre;
+            Edad = edad;
+            Apellidos = apellidos;
+            pm = new PersonaPersistence();
+        }
+
+        public Persona() 
+        { 
+            pm = new PersonaPersistence();
+        }
+
+        public Persona(int id)
+        {
+            Id = id;
+            pm = new PersonaPersistence();
+        }
+    }
+}

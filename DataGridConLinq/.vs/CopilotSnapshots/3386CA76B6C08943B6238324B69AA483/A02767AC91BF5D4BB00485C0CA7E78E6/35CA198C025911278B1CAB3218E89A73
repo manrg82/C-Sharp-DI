@@ -1,0 +1,103 @@
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using DataGridConLinq;
+using Datagrid.persistence;
+/*
+  Interaction logic for MainWindow.xaml
+namespace Datagrid
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+    }
+}*/
+namespace Datagrid
+{
+    public partial class MainWindow : Window
+    {
+        List<Persona> lsPersonas;
+        Persona persona;
+        public MainWindow()
+        {
+            InitializeComponent();
+            lsPersonas = new List<Persona>();
+            persona=new Persona();
+            lsPersonas=PersonaPersistence.leerPersonas();
+            dataGridPersonas.ItemsSource = lsPersonas;
+        }
+        public void start() {
+            txtNombre.Text = "";
+            txtApellido.Text = "";
+            txtEdad.Text = "";
+            btnModificar.IsEnabled = false;
+        }
+        private void dataGridPersonas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+           Persona p=dataGridPersonas.SelectedItem as Persona;
+           if (p != null) {
+                txtNombre.Text = p.Nombre;
+                txtApellido.Text = p.Apellidos;
+                txtEdad.Text = p.Edad.ToString();
+                btnModificar.IsEnabled = true;
+            }
+            else
+            {
+                btnModificar.IsEnabled = false;
+            }
+        }
+        private void btnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            /*
+            lsPersonas.Remove((Persona)dataGridPersonas.SelectedItem);
+            dataGridPersonas.Items.Refresh();
+            start();*/
+        }
+        private void btnAgregar_Click(object sender, RoutedEventArgs e)
+        {
+                Persona p = dataGridPersonas.SelectedItem as Persona;
+                if (p!=null&&(txtNombre.Text == p.Nombre || txtApellido.Text == p.Apellidos || int.Parse(txtEdad.Text) == p.Edad))
+                {
+                    Console.WriteLine("La persona ya existe");
+                }
+                else
+                {
+                    lsPersonas.Add(new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text)) as Persona);
+                    dataGridPersonas.Items.Refresh();
+                    start();
+                }
+        }
+        private void btnModificar_Click(object sender, RoutedEventArgs e)
+        {
+            Persona p = (Persona)dataGridPersonas.SelectedItem;
+            if (p==null)
+            {
+                btnModificar.IsEnabled = false;
+            }
+            else{
+                btnModificar.IsEnabled = true;
+                p.Nombre = txtNombre.Text;
+                p.Apellidos = txtApellido.Text;
+                p.Edad = int.Parse(txtEdad.Text);
+                dataGridPersonas.Items.Refresh();
+                start();
+            }
+                
+        }
+    }
+}

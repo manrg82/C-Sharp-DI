@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\persistence\\manage\\personapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\persistence\\manage\\personapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\view\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\view\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\datagridconlinq\\datagridconlinq\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFB6C36A-03DD-479B-8BF0-4EBACB8C0E19}|DataGridConLinq\\DataGridConLinq.csproj|solutionrelative:datagridconlinq\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 167,
+          "DockedWidth": 200,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -31,44 +43,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PersonaPersistence.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
+              "RelativeDocumentMoniker": "DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
+              "RelativeToolTip": "DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA3wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:17:41.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\domain\\Persona.cs",
+              "RelativeDocumentMoniker": "DataGridConLinq\\domain\\Persona.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\domain\\Persona.cs",
+              "RelativeToolTip": "DataGridConLinq\\domain\\Persona.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA6wD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:55:40.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataGridConLinq\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml",
+              "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T10:03:11.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 179,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "DataGridConLinq\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "DataGridConLinq\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAIAzwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:58:32.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DataGridConLinq\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DataGridConLinq\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAwB8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T07:55:47.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\Persona.cs",
-              "RelativeDocumentMoniker": "DataGridConLinq\\Persona.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\Persona.cs",
-              "RelativeToolTip": "DataGridConLinq\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:55:40.959Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 212,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DataGridConLinq\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\MainWindow.xaml*",
-              "RelativeToolTip": "DataGridConLinq\\MainWindow.xaml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataGridConLinq\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml",
+              "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-11T07:56:03.258Z",
               "EditorCaption": ""

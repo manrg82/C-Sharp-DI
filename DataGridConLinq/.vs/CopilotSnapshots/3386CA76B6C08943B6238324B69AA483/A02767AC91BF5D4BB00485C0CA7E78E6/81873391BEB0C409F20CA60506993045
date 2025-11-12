@@ -1,0 +1,37 @@
+﻿using Datagrid.persistence;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataGridConLinq
+{
+    class Persona
+    {
+        public PersonaPersistence pm { get; set; }
+        private int Id { get; set; }
+        private String Nombre { get; set; }
+        private String Apellidos { get; set; }
+        private int Edad { get; set; }
+
+        public Persona(int id, String nombre, String apellidos, int edad)
+        {
+            Id=id;
+            Nombre = nombre;
+            Edad = edad;
+            Apellidos = apellidos;
+            pm = new PersonaPersistence();
+        }
+        public Persona() { 
+            pm = new PersonaPersistence();
+        }
+        public Persona(int id)
+        {
+            id = id;
+            pm = new PersonaPersistence();
+        }
+
+
+    }
+}
