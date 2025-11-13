@@ -50,7 +50,7 @@ namespace DataGridConLinq
             Id = id;
             pm = new PersonaPersistence();
         }
-        
+
         public List<Persona> getLspersonas()
         {
             lspersonas= PersonaPersistence.leerPersonas();
@@ -60,16 +60,6 @@ namespace DataGridConLinq
         public void insertar()
         {
             pm.insertarPersona(this);
-        }
-
-        public void actualizar()
-        {
-            pm.actualizarPersona(this);
-        }
-
-        public void eliminar()
-        {
-            pm.eliminarPersona(this.Id);
         }
     }
 }

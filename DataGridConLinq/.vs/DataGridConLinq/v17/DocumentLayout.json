@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
               "RelativeToolTip": "DataGridConLinq\\persistence\\manage\\PersonaPersistence.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA3wCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAEBVwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T10:17:41.587Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "DataGridConLinq\\domain\\Persona.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\domain\\Persona.cs",
               "RelativeToolTip": "DataGridConLinq\\domain\\Persona.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAA6wD4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T07:55:40.959Z",
               "EditorCaption": ""
@@ -75,15 +75,27 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml",
               "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-12T10:03:11.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T10:03:11.666Z"
             }
           ]
         },
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAowGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:55:47.291Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -94,21 +106,7 @@
               "RelativeToolTip": "DataGridConLinq\\persistence\\DBBroker.cs",
               "ViewState": "AgIAADoAAAAAAAAAAIAzwDYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T09:58:32.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DataGridConLinq\\view\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\DataGridConLinq\\DataGridConLinq\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswB8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:55:47.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T09:58:32.578Z"
             },
             {
               "$type": "Document",
@@ -120,8 +118,7 @@
               "RelativeToolTip": "DataGridConLinq\\view\\MainWindow.xaml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T07:56:03.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T07:56:03.258Z"
             }
           ]
         }

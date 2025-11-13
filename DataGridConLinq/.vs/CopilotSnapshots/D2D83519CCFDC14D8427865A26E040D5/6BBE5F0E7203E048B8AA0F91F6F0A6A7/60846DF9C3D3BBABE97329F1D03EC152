@@ -27,10 +27,9 @@ namespace Datagrid
             persona = new Persona();
             cargarPersonas();
         }
-        
         private void cargarPersonas()
         {
-            lsPersonas.Clear();
+            lsPersonas= new ObservableCollection<Persona>();
             var personas = PersonaPersistence.leerPersonas();
             foreach (var p in personas)
             {
@@ -38,7 +37,6 @@ namespace Datagrid
             }
             dataGridPersonas.ItemsSource = lsPersonas;
         }
-        
         public void start() 
         {
             txtNombre.Text = "";
@@ -69,25 +67,8 @@ namespace Datagrid
             Persona p = dataGridPersonas.SelectedItem as Persona;
             if (p != null)
             {
-                try
-                {
-                    // Eliminar de la base de datos
-                    p.eliminar();
-                    
-                    // Eliminar de la lista observable
-                    lsPersonas.Remove(p);
-                    
-                    MessageBox.Show("Persona eliminada correctamente", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
-                    start();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error al eliminar la persona: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Por favor, seleccione una persona para eliminar", "Advertencia", MessageBoxButton.OK, MessageBoxImage.Warning);
+                lsPersonas.Remove(p);
+                start();
             }
         }
         
@@ -118,21 +99,12 @@ namespace Datagrid
             }
             else
             {
-                try
-                {
-                    Persona psnew = new Persona(txtNombre.Text, txtApellido.Text, edad);
-                    psnew.insertar();
-                    
-                    MessageBox.Show("Persona agregada correctamente", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
-                    
-                    // Recargar la lista desde la base de datos para obtener el ID asignado
-                    cargarPersonas();
-                    start();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error al agregar la persona: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
+                Persona psnew = new Persona(txtNombre.Text, txtApellido.Text, edad);
+                psnew.insertar();
+                lsPersonas.Add(psnew);
+                
+                start();
+                cargarPersonas();
             }
             
         }
@@ -161,26 +133,10 @@ namespace Datagrid
                 return;
             }
 
-            try
-            {
-                // Actualizar los valores en el objeto
-                p.Nombre = txtNombre.Text;
-                p.Apellidos = txtApellido.Text;
-                p.Edad = edad;
-                
-                // Actualizar en la base de datos
-                p.actualizar();
-                
-                MessageBox.Show("Persona modificada correctamente", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
-                
-                // Refrescar el DataGrid
-                dataGridPersonas.Items.Refresh();
-                start();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al modificar la persona: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+            p.Nombre = txtNombre.Text;
+            p.Apellidos = txtApellido.Text;
+            p.Edad = edad;
+            start();
         }
     }
 }

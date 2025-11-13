@@ -33,27 +33,7 @@ namespace Datagrid.persistence
 
         public void insertarPersona(Persona persona)
         {
-            string sql = "INSERT INTO mydb.persona (nombre, apellidos, edad) VALUES ('" + 
-                         persona.Nombre + "', '" + 
-                         persona.Apellidos + "', " + 
-                         persona.Edad + ");";
-            int a = DBBroker.obtenerAgente().modificar(sql);
-        }
-
-        public void actualizarPersona(Persona persona)
-        {
-            string sql = "UPDATE mydb.persona SET " +
-                         "nombre = '" + persona.Nombre + "', " +
-                         "apellidos = '" + persona.Apellidos + "', " +
-                         "edad = " + persona.Edad + " " +
-                         "WHERE id = " + persona.Id + ";";
-            int a = DBBroker.obtenerAgente().modificar(sql);
-        }
-
-        public void eliminarPersona(int id)
-        {
-            string sql = "DELETE FROM mydb.persona WHERE id = " + id + ";";
-            int a = DBBroker.obtenerAgente().modificar(sql);
+            DBBroker.obtenerAgente().modificar("Insert into mydb.persona (nombre, apellidos, edad) values ('" + persona.Nombre + "', '" + persona.Apellidos + "', " + persona.Edad + ");");
         }
 
         /*
