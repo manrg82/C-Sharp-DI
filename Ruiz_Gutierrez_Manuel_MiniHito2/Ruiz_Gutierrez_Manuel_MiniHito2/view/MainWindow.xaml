@@ -1,0 +1,103 @@
+﻿<Window x:Class="Ruiz_Gutierrez_Manuel_MiniHito2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ruiz_Gutierrez_Manuel_MiniHito2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl TabStripPlacement="Left">
+            <TabItem Header="INICIO" Width="100PX" Height="30PX" IsEnabled="False">
+                <Grid Background="White">
+                    <TextBlock Text="Tab 1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="PARTICIPANTES" Width="100PX" Height="30PX">
+                <Grid Background="White">
+                    <TabControl>
+                        <TabItem Header="Alumnado" IsSelected="True" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.75*"/>
+                                    <RowDefinition Height="5*"/>
+                                    <RowDefinition Height="0.75*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox Width="100" Margin="10" HorizontalAlignment="Left" Text="Search" Grid.Row="0" Grid.Column="0"/>
+                                <Button Grid.Column="0" Grid.Row="0" Margin="10" Width="40px">Ir</Button>
+                                <DataGrid Margin="20" x:Name="dataGridAlumnado" AutoGenerateColumns="true" Grid.Row="1" Grid.Column="0">
+                                </DataGrid>
+                                <Image Source="/recursos minihitos/png hojas/palm_3086199.png" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Column="1" Grid.Row="0"></Image>
+                                <StackPanel Grid.Row="1" Grid.Column="1" Margin="40">
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Height="30px">Alumnado</TextBlock>
+                                    <TextBlock Margin="5,0">Nombre</TextBlock>
+                                    <TextBox Margin="5"></TextBox>
+                                    <TextBlock Margin="5,0">Apellidos</TextBlock>
+                                    <TextBox Margin="5"></TextBox>
+                                    <TextBlock Margin="5,0">Curso</TextBlock>
+                                    <RadioButton x:Name="sci1">SCI1</RadioButton>
+                                    <RadioButton x:Name="sci2">SCI2</RadioButton>
+                                </StackPanel>
+                                <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" >
+                                    <Button x:Name="btnAdd" Height="20px" Width="80px" Margin="5">Añadir</Button>
+                                    <Button x:Name="btnMod" Height="20px" Width="80px" Margin="5">Añadir</Button>
+                                    <Button x:Name="btnRem" Height="20px" Width="80px" Margin="5">Añadir</Button>
+                                </StackPanel>
+                                <Image Grid.Column="0" HorizontalAlignment="Left" Grid.Row="2" Source="/recursos minihitos/logotipo-ies-maestredecalatrava-1.png"></Image>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Grupos">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0" Grid.Column="0">
+                                    <TextBlock>Hola</TextBlock>
+                                    <DataGrid ></DataGrid>
+                                </Grid>
+                                <Grid Grid.Row="0" Grid.Column="1">
+
+                                </Grid>
+                                <Grid Grid.Row="1" Grid.Column="0">
+
+                                </Grid>
+                                <Grid Grid.Row="1" Grid.Column="1">
+
+                                </Grid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="EMPRESAS" Width="100PX" Height="30PX" IsEnabled="False">
+                <Grid Background="White">
+                    <TextBlock Text="Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="RETOS" Width="100PX" Height="30PX" IsEnabled="False">
+                <Grid Background="White">
+                    <TextBlock Text="Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TALENT LAB" Width="100PX" Height="30PX" IsEnabled="False">
+                <Grid Background="White">
+                    <TextBlock Text="Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="USUARIOS" Width="100PX" Height="30PX" IsEnabled="False">
+                <Grid Background="White">
+                    <TextBlock Text="Tab 3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,97 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5EEADC39-25CF-449B-941E-31DA9AA38569}|WpfApp30102025\\WpfApp30102025.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\wpfapp30102025\\wpfapp30102025\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5EEADC39-25CF-449B-941E-31DA9AA38569}|WpfApp30102025\\WpfApp30102025.csproj|solutionrelative:wpfapp30102025\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EEADC39-25CF-449B-941E-31DA9AA38569}|WpfApp30102025\\WpfApp30102025.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\wpfapp30102025\\wpfapp30102025\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EEADC39-25CF-449B-941E-31DA9AA38569}|WpfApp30102025\\WpfApp30102025.csproj|solutionrelative:wpfapp30102025\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EEADC39-25CF-449B-941E-31DA9AA38569}|WpfApp30102025\\WpfApp30102025.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\wpfapp30102025\\wpfapp30102025\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5EEADC39-25CF-449B-941E-31DA9AA38569}|WpfApp30102025\\WpfApp30102025.csproj|solutionrelative:wpfapp30102025\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\WpfApp30102025\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 190,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 167,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\WpfApp30102025\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp30102025\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\WpfApp30102025\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp30102025\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T07:53:12.88Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 122,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\WpfApp30102025\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp30102025\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\WpfApp30102025\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp30102025\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-30T07:53:15.735Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "1b2720eb-f99c-4471-b26e-44441d616b62",
-        "Display": 1,
-        "X": 0,
-        "Y": 57,
-        "Width": 800,
-        "Height": 424,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\WpfApp30102025\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp30102025\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\WpfApp30102025\\WpfApp30102025\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp30102025\\MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-30T07:53:26.499Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

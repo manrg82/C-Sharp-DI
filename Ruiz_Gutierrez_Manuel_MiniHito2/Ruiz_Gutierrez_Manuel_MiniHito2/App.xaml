@@ -1,0 +1,9 @@
+﻿<Application x:Class="Ruiz_Gutierrez_Manuel_MiniHito2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Ruiz_Gutierrez_Manuel_MiniHito2"
+             StartupUri="view/MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
