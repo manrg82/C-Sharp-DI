@@ -1,4 +1,4 @@
-﻿using DataGridConLinq;
+﻿ using DataGridConLinq;
 using ExampleMVCnoDatabase.Persistence;
 using System;
 using System.Collections.Generic;
@@ -24,9 +24,7 @@ namespace Datagrid.persistence
             List<Persona> personas = new List<Persona>();
             foreach (List<Object> fila in aux)
             {
-                DateTime fechaDB = Convert.ToDateTime(fila[4]);
-                string fechaFormateada = fechaDB.ToString("dd/MM/yyyy");
-                p = new Persona(Convert.ToInt32(fila[0]), fila[1].ToString(), fila[2].ToString(), Convert.ToInt32(fila[3]), fechaFormateada);
+                p = new Persona(Convert.ToInt32(fila[0]), fila[1].ToString(), fila[2].ToString(), Convert.ToInt32(fila[3]), Convert.ToString(fila[4]);//id,nombre,apellido,edad
                 personas.Add(p);
                 Console.WriteLine(p.ToString());
             }
@@ -38,7 +36,7 @@ namespace Datagrid.persistence
             string sql = "INSERT INTO mydb.persona2 (nombre, apellidos, edad, fechanac) VALUES ('" + 
                          persona.Nombre + "', '" + 
                          persona.Apellidos + "', " + 
-                         persona.Edad + ", '" +
+                         persona.Edad + "', " +
                          persona.Fechanac +"');";
             int a = DBBroker.obtenerAgente().modificar(sql);
         }
@@ -48,15 +46,15 @@ namespace Datagrid.persistence
             string sql = "UPDATE mydb.persona2 SET " +
                          "nombre = '" + persona.Nombre + "', " +
                          "apellidos = '" + persona.Apellidos + "', " +
-                         "edad = " + persona.Edad + ", " +
+                         "edad = " + persona.Edad + " " +
                          "fechanac = '" + persona.Fechanac + "' " +
-                         "WHERE idpersona = " + persona.Id + ";";
+                         "WHERE id = " + persona.Id + ";";
             int a = DBBroker.obtenerAgente().modificar(sql);
         }
 
         public void eliminarPersona(int id)
         {
-            string sql = "DELETE FROM mydb.persona2 WHERE idpersona = " + id + ";";
+            string sql = "DELETE FROM mydb.persona2 WHERE id = " + id + ";";
             int a = DBBroker.obtenerAgente().modificar(sql);
         }
 

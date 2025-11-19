@@ -23,14 +23,15 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="2*"/>
                         </Grid.ColumnDefinitions>
-                            <StackPanel Grid.Column="0" Margin="10" VerticalAlignment="Center">
-                                <Label Content="Nombre" HorizontalAlignment="Center" FontSize="16" Height="30"/>
-                                <TextBox Background="White" x:Name="txtNombre" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
-                                <Label Content="Apellido" HorizontalAlignment="Center" FontSize="16"/>
-                                <TextBox Background="White" x:Name="txtApellido" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
-                                <Label Content="Edad" HorizontalAlignment="Center" FontSize="16"/>
-                                <TextBox Background="White" x:Name="txtEdad" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
-                            </StackPanel>
+                        <StackPanel Grid.Column="0" Margin="10" VerticalAlignment="Center">
+                            <Label Content="Nombre" HorizontalAlignment="Center" FontSize="16" Height="30"/>
+                            <TextBox Background="White" x:Name="txtNombre" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
+                            <Label Content="Apellido" HorizontalAlignment="Center" FontSize="16"/>
+                            <TextBox Background="White" x:Name="txtApellido" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
+                            <Label Content="Edad" HorizontalAlignment="Center" FontSize="16"/>
+                            <TextBox Background="White" x:Name="txtEdad" HorizontalAlignment="Center" Width="200" Height="25" FontSize="14"/>
+                            <DatePicker x:Name="datePickerFechaNacimiento"  HorizontalAlignment="Center" Width="200" Height="25" FontSize="14" Margin="0,10,0,0" SelectedDateFormat="Short"/>
+                        </StackPanel>
                         <DataGrid x:Name="dataGridPersonas" Grid.Column="1" Margin="15" SelectionChanged="dataGridPersonas_SelectionChanged">
                             
                         </DataGrid>
@@ -45,7 +46,7 @@
             </TabItem>
             <TabItem Header="tab2">
                 <Grid Background="LightGray">
-                    
+                    <TextBlock Text="mondongo" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
                 </Grid>
             </TabItem>
         </TabControl>

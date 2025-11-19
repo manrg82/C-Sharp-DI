@@ -57,16 +57,6 @@ namespace Datagrid
                 txtNombre.Text = p.Nombre;
                 txtApellido.Text = p.Apellidos;
                 txtEdad.Text = p.Edad.ToString();
-                
-                // Cargar la fecha de nacimiento si está disponible
-                if (!string.IsNullOrWhiteSpace(p.Fechanac))
-                {
-                    if (DateTime.TryParse(p.Fechanac, out DateTime fecha))
-                    {
-                        datePickerFechaNacimiento.SelectedDate = fecha;
-                    }
-                }
-                
                 btnModificar.IsEnabled = true;
             }
             else
@@ -106,8 +96,7 @@ namespace Datagrid
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || 
                 string.IsNullOrWhiteSpace(txtApellido.Text) || 
-                string.IsNullOrWhiteSpace(txtEdad.Text) ||
-                !datePickerFechaNacimiento.SelectedDate.HasValue)
+                string.IsNullOrWhiteSpace(txtEdad.Text))
             {
                 MessageBox.Show("Por favor, complete todos los campos", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
@@ -132,7 +121,7 @@ namespace Datagrid
             {
                 try
                 {
-                    Persona psnew = new Persona(txtNombre.Text, txtApellido.Text, edad, datePickerFechaNacimiento.SelectedDate.Value.ToString("yyyy-MM-dd"));
+                    Persona psnew = new Persona(txtNombre.Text, txtApellido.Text, edad,datePickerFechaNacimiento.SelectedDate.Value.ToString());
                     psnew.insertar();
                     
                     MessageBox.Show("Persona agregada correctamente", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -161,8 +150,8 @@ namespace Datagrid
 
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || 
                 string.IsNullOrWhiteSpace(txtApellido.Text) || 
-                string.IsNullOrWhiteSpace(txtEdad.Text) ||
-                !datePickerFechaNacimiento.SelectedDate.HasValue)
+                string.IsNullOrWhiteSpace(txtEdad.Text)||
+                string.IsNullOrWhiteSpace(datePickerFechaNacimiento.SelectedDate.Value.ToString()))
             {
                 MessageBox.Show("Por favor, complete todos los campos", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
@@ -180,7 +169,6 @@ namespace Datagrid
                 p.Nombre = txtNombre.Text;
                 p.Apellidos = txtApellido.Text;
                 p.Edad = edad;
-                p.Fechanac = datePickerFechaNacimiento.SelectedDate.Value.ToString("yyyy-MM-dd");
                 
                 // Actualizar en la base de datos
                 p.actualizar();

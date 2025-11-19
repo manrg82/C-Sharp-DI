@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF0B225-6277-4DC9-8C4E-082944B2E1C2}|DatePickerEjemplo\\DatePickerEjemplo.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\datepickerejemplo\\datepickerejemplo\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3CF0B225-6277-4DC9-8C4E-082944B2E1C2}|DatePickerEjemplo\\DatePickerEjemplo.csproj|solutionrelative:datepickerejemplo\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF0B225-6277-4DC9-8C4E-082944B2E1C2}|DatePickerEjemplo\\DatePickerEjemplo.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\datepickerejemplo\\datepickerejemplo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF0B225-6277-4DC9-8C4E-082944B2E1C2}|DatePickerEjemplo\\DatePickerEjemplo.csproj|solutionrelative:datepickerejemplo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF0B225-6277-4DC9-8C4E-082944B2E1C2}|DatePickerEjemplo\\DatePickerEjemplo.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\datepickerejemplo\\datepickerejemplo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3CF0B225-6277-4DC9-8C4E-082944B2E1C2}|DatePickerEjemplo\\DatePickerEjemplo.csproj|solutionrelative:datepickerejemplo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\DatePickerEjemplo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DatePickerEjemplo\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\DatePickerEjemplo\\MainWindow.xaml",
+              "RelativeToolTip": "DatePickerEjemplo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T12:19:40.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\DatePickerEjemplo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DatePickerEjemplo\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\DatePickerEjemplo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DatePickerEjemplo\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABsAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:19:40.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\DatePickerEjemplo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DatePickerEjemplo\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\DatePickerEjemplo\\DatePickerEjemplo\\MainWindow.xaml",
+              "RelativeToolTip": "DatePickerEjemplo\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T12:19:58.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

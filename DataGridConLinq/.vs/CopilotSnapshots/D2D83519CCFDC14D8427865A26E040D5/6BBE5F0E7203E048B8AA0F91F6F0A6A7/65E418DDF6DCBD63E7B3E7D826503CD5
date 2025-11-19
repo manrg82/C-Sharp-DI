@@ -24,16 +24,14 @@ namespace DataGridConLinq
         public String Apellidos { get; set; }
         
         public int Edad { get;set; }
-        
         public String Fechanac { get; set; }
-        
-        public Persona(int id, String nombre, String apellidos, int edad, String fechanac)
+        public Persona(int id, String nombre, String apellidos, int edad,String fechanac)
         {
             Id = id;
             Nombre = nombre;
             Edad = edad;
             Apellidos = apellidos;
-            Fechanac = fechanac;
+            fechanac=fechanac;
             pm = new PersonaPersistence();
         }
 
@@ -42,7 +40,7 @@ namespace DataGridConLinq
             Nombre = nombre;
             Edad = edad;
             Apellidos = apellidos;
-            Fechanac = fechanac;
+            fechanac = fechanac;
             pm = new PersonaPersistence();
         }
 
