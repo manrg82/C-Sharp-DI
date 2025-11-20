@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TareaMario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc6d22b7d3abe0cccdf9b805d4e7dca769cfa6f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2462f05acbcf04d8fac5b49920baea2e3f43d7c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TareaMario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TareaMario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

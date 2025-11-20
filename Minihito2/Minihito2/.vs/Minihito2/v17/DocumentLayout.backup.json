@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Proyectos\\DI\\UT3\\Minihito2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\minihito2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:minihito2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\persistence\\manages\\alumnomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:persistence\\manages\\alumnomanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|f:\\proyectos\\di\\ut3\\minihito2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10A6FE47-526A-4FF4-9B34-67663BDD126D}|Minihito2.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\Alumno.cs",
+              "RelativeDocumentMoniker": "Alumno.cs",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\Alumno.cs",
+              "RelativeToolTip": "Alumno.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:28:06.598Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T00:14:00.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Minihito2",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\Minihito2.csproj",
+              "RelativeDocumentMoniker": "Minihito2.csproj",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\Minihito2.csproj",
+              "RelativeToolTip": "Minihito2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T22:58:38.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlumnoManage.cs",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\persistence\\manages\\AlumnoManage.cs",
+              "RelativeDocumentMoniker": "persistence\\manages\\AlumnoManage.cs",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\persistence\\manages\\AlumnoManage.cs",
+              "RelativeToolTip": "persistence\\manages\\AlumnoManage.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAhwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:28:11.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "persistence\\DBBroker.cs",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "persistence\\DBBroker.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:27:26.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T16:15:37.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Proyectos\\DI\\UT3\\Minihito2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Proyectos\\DI\\UT3\\Minihito2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:15:33.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

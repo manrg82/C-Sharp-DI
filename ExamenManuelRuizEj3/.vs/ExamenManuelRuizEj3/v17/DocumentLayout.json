@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej3\\examenmanuelruizej3\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|solutionrelative:examenmanuelruizej3\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej3\\examenmanuelruizej3\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|solutionrelative:examenmanuelruizej3\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej3\\examenmanuelruizej3\\view\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|solutionrelative:examenmanuelruizej3\\view\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej3\\examenmanuelruizej3\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|solutionrelative:examenmanuelruizej3\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej3\\examenmanuelruizej3\\persistence\\manage\\jugadorpersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|solutionrelative:examenmanuelruizej3\\persistence\\manage\\jugadorpersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej3\\examenmanuelruizej3\\domain\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68281192-EE46-4074-B83E-F446A2863CB9}|ExamenManuelRuizEj3\\ExamenManuelRuizEj3.csproj|solutionrelative:examenmanuelruizej3\\domain\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 382,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 422,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "RelativeToolTip": "ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T09:07:53.711Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 737,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JugadorPersistence.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\persistence\\manage\\JugadorPersistence.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj3\\persistence\\manage\\JugadorPersistence.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\persistence\\manage\\JugadorPersistence.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj3\\persistence\\manage\\JugadorPersistence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:07:10.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\domain\\Jugador.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj3\\domain\\Jugador.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\domain\\Jugador.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj3\\domain\\Jugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:06:54.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj3\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj3\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:48:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj3\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj3\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T09:32:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj3\\ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "RelativeToolTip": "ExamenManuelRuizEj3\\view\\MainWindow.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCQAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T08:02:19.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej1\\examenmanuelruizej1\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|solutionrelative:examenmanuelruizej1\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej1\\examenmanuelruizej1\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|solutionrelative:examenmanuelruizej1\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej1\\examenmanuelruizej1\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|solutionrelative:examenmanuelruizej1\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\examenmanuelruizej1\\examenmanuelruizej1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89AAEE97-611C-4FE6-B3A0-69EA8388AFC0}|ExamenManuelRuizEj1\\ExamenManuelRuizEj1.csproj|solutionrelative:examenmanuelruizej1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 382,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Position.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj1\\Position.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Position.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj1\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:46:47.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Snake.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Snake.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj1\\Snake.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Snake.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj1\\Snake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:46:22.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Board.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj1\\Board.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Board.cs*",
+              "RelativeToolTip": "ExamenManuelRuizEj1\\Board.cs*",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAwMYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:46:11.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Program.cs",
+              "RelativeDocumentMoniker": "ExamenManuelRuizEj1\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\ExamenManuelRuizEj1\\ExamenManuelRuizEj1\\Program.cs",
+              "RelativeToolTip": "ExamenManuelRuizEj1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:43:59.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 422,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
