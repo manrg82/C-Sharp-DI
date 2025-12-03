@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8BD7F16E-F821-4DE5-9CBF-155E43C45FAA}|ExceptionHandling\\ExceptionHandling.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\exceptionhandling\\exceptionhandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BD7F16E-F821-4DE5-9CBF-155E43C45FAA}|ExceptionHandling\\ExceptionHandling.csproj|solutionrelative:exceptionhandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7F16E-F821-4DE5-9CBF-155E43C45FAA}|ExceptionHandling\\ExceptionHandling.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\exceptionhandling\\exceptionhandling\\negativenumberexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7F16E-F821-4DE5-9CBF-155E43C45FAA}|ExceptionHandling\\ExceptionHandling.csproj|solutionrelative:exceptionhandling\\negativenumberexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 320,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NegativeNumberException.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExceptionHandling\\ExceptionHandling\\NegativeNumberException.cs",
+              "RelativeDocumentMoniker": "ExceptionHandling\\NegativeNumberException.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExceptionHandling\\ExceptionHandling\\NegativeNumberException.cs",
+              "RelativeToolTip": "ExceptionHandling\\NegativeNumberException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:26:11.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExceptionHandling\\ExceptionHandling\\Program.cs",
               "RelativeDocumentMoniker": "ExceptionHandling\\Program.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExceptionHandling\\ExceptionHandling\\Program.cs",
               "RelativeToolTip": "ExceptionHandling\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T08:25:17.105Z",
               "EditorCaption": ""

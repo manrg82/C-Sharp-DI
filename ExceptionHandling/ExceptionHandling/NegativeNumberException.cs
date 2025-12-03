@@ -10,4 +10,5 @@ namespace ExceptionHandling
     {
         public NegativeNumberException(string msg) : base(msg) { }
     }
+    
 }

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 320,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "Login\\View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml",
+              "RelativeToolTip": "Login\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T13:08:30.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "Login\\View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:15:28.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\App.xaml",
+              "RelativeDocumentMoniker": "Login\\App.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\App.xaml",
+              "RelativeToolTip": "Login\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T13:08:36.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 507,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
