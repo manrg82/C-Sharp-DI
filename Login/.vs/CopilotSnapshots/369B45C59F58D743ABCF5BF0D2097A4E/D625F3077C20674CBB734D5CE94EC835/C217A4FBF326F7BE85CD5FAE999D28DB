@@ -1,0 +1,480 @@
+﻿# Documentación Técnica - Arquitectura del Proyecto
+
+## Índice
+1. [Arquitectura General](#arquitectura-general)
+2. [Capa de Modelo (Model)](#capa-de-modelo)
+3. [Capa de Persistencia (DAL)](#capa-de-persistencia)
+4. [Capa de Vista Modelo (ViewModel)](#capa-de-vista-modelo)
+5. [Capa de Vista (View)](#capa-de-vista)
+6. [Patrones de Diseño](#patrones-de-diseño)
+7. [Flujo de Datos](#flujo-de-datos)
+
+---
+
+## Arquitectura General
+
+El proyecto sigue una arquitectura en **capas** con el patrón **MVVM** (Model-View-ViewModel):
+
+```
+┌─────────────────────────────────────────┐
+│              VIEW (XAML)                │  ← Interfaz de Usuario
+│  ┌──────────┐  ┌──────────┐  ┌────────┐│
+│  │LoginView │  │AlumnadoV.│  │GruposV.││
+│  └──────────┘  └──────────┘  └────────┘│
+└───────────────────┬─────────────────────┘
+                    │ Data Binding
+                    ↓
+┌─────────────────────────────────────────┐
+│           VIEW MODEL                    │  ← Lógica de Presentación
+│  ┌────────────────┐  ┌────────────────┐│
+│  │AlumnadoViewModel│  │GruposViewModel ││
+│  └────────────────┘  └────────────────┘│
+└───────────────────┬─────────────────────┘
+                    │
+                    ↓
+┌─────────────────────────────────────────┐
+│        MODEL (Entities)                 │  ← Entidades de Negocio
+│  ┌──────────┐      ┌─────────┐        │
+│  │ Alumnado │      │ Grupo   │        │
+│  └──────────┘      └─────────┘        │
+└───────────────────┬─────────────────────┘
+                    │
+                    ↓
+┌─────────────────────────────────────────┐
+│     DAL (Data Access Layer)             │  ← Acceso a Datos
+│  ┌────────────────┐  ┌────────────────┐│
+│  │AlumnadoRepo    │  │GrupoRepo       ││
+│  └────────────────┘  └────────────────┘│
+└───────────────────┬─────────────────────┘
+                    │
+                    ↓
+            ┌──────────────┐
+            │   MySQL DB   │
+            └──────────────┘
+```
+
+---
+
+## Capa de Modelo (Model)
+
+### Responsabilidad
+Representa las entidades del dominio de negocio.
+
+### Archivos
+- `Model/Alumnado.cs`
+- `Model/Grupo.cs`
+
+### Características
+- Implementan `INotifyPropertyChanged` para notificar cambios a la UI
+- Propiedades con encapsulamiento completo
+- Sin lógica de negocio compleja
+
+### Ejemplo: Alumnado.cs
+```csharp
+public class Alumnado : INotifyPropertyChanged
+{
+    private int _idAlumnado;
+    private string _nombre = string.Empty;
+    // ... más propiedades
+    
+    public int IdAlumnado
+    {
+        get => _idAlumnado;
+        set
+        {
+            _idAlumnado = value;
+            OnPropertyChanged(); // Notifica cambios
+        }
+    }
+    
+    // Event para binding bidireccional
+    public event PropertyChangedEventHandler? PropertyChanged;
+}
+```
+
+---
+
+## Capa de Persistencia (DAL)
+
+### Responsabilidad
+Maneja toda la comunicación con la base de datos.
+
+### Archivos
+- `DAL/DatabaseConnection.cs` - Gestión de conexiones
+- `DAL/AlumnadoRepository.cs` - CRUD de alumnos
+- `DAL/GrupoRepository.cs` - CRUD de grupos
+
+### Patrón Repository
+Abstrae el acceso a datos mediante repositorios especializados.
+
+### DatabaseConnection.cs
+```csharp
+public class DatabaseConnection
+{
+    private static string _connectionString = "...";
+    
+    public static MySqlConnection GetConnection()
+    {
+        return new MySqlConnection(_connectionString);
+    }
+}
+```
+
+### AlumnadoRepository.cs - Métodos principales:
+```csharp
+public class AlumnadoRepository
+{
+    public List<Alumnado> GetAll()           // Obtener todos
+    public List<Alumnado> GetSinAsignar()    // Sin grupo
+    public List<Alumnado> GetByGrupo(int id) // Por grupo
+    public bool Add(Alumnado alumno)         // Crear
+    public bool Update(Alumnado alumno)      // Actualizar
+    public bool Delete(int id)               // Eliminar
+}
+```
+
+### Ventajas del patrón Repository:
+- ✅ Separación de responsabilidades
+- ✅ Facilita testing (mock de repositorios)
+- ✅ Cambio de BD sin afectar ViewModels
+- ✅ Reutilización de consultas
+
+---
+
+## Capa de Vista Modelo (ViewModel)
+
+### Responsabilidad
+Actúa como intermediario entre View y Model. Contiene la lógica de presentación.
+
+### Archivos
+- `ViewModel/AlumnadoViewModel.cs`
+- `ViewModel/GruposViewModel.cs`
+
+### Características
+- Implementan `INotifyPropertyChanged`
+- Exponen `ObservableCollection<T>` para binding con listas
+- Implementan `ICommand` para acciones de botones
+- Contienen lógica de validación
+- Llaman a repositorios para operaciones CRUD
+
+### AlumnadoViewModel.cs - Estructura:
+```csharp
+public class AlumnadoViewModel : INotifyPropertyChanged
+{
+    // Repositorio
+    private readonly AlumnadoRepository _repository;
+    
+    // Colecciones observables (binding)
+    public ObservableCollection<Alumnado> Alumnos { get; set; }
+    
+    // Propiedades para formulario
+    public string Nombre { get; set; }
+    public string Apellidos { get; set; }
+    public string Curso { get; set; }
+    
+    // Selección actual
+    public Alumnado? SelectedAlumno { get; set; }
+    
+    // Comandos (vinculados a botones)
+    public ICommand AddCommand { get; }
+    public ICommand UpdateCommand { get; }
+    public ICommand DeleteCommand { get; }
+    
+    // Constructor: inicializa comandos y carga datos
+    public AlumnadoViewModel()
+    {
+        _repository = new AlumnadoRepository();
+        AddCommand = new RelayCommand(Add);
+        LoadData();
+    }
+    
+    // Métodos privados para lógica de negocio
+    private void Add(object? parameter) { ... }
+    private void Update(object? parameter) { ... }
+    private void Delete(object? parameter) { ... }
+}
+```
+
+### GruposViewModel.cs - Gestión de listas maestro-esclavo:
+```csharp
+public class GruposViewModel : INotifyPropertyChanged
+{
+    // Dos listas: sin asignar y seleccionados
+    public ObservableCollection<Alumnado> AlumnosSinAsignar { get; set; }
+    public ObservableCollection<Alumnado> AlumnosSeleccionados { get; set; }
+    public ObservableCollection<Grupo> Grupos { get; set; }
+    
+    // Comandos para movimiento entre listas
+    public ICommand AsignarCommand { get; }
+    public ICommand DesasignarCommand { get; }
+    
+    // CRUD de grupos
+    public ICommand CrearGrupoCommand { get; }
+    public ICommand ModificarGrupoCommand { get; }
+    public ICommand EliminarGrupoCommand { get; }
+}
+```
+
+---
+
+## Capa de Vista (View)
+
+### Responsabilidad
+Interfaz gráfica (XAML) sin lógica de negocio.
+
+### Archivos
+- `View/LoginView.xaml` + `.xaml.cs`
+- `View/AlumnadoView.xaml` + `.xaml.cs`
+- `View/GruposView.xaml` + `.xaml.cs`
+
+### Binding de Datos
+Las vistas se comunican con ViewModels mediante **Data Binding**:
+
+```xaml
+<!-- Binding de contexto -->
+<Window.DataContext>
+    <vm:AlumnadoViewModel/>
+</Window.DataContext>
+
+<!-- Binding bidireccional -->
+<TextBox Text="{Binding Nombre, UpdateSourceTrigger=PropertyChanged}"/>
+
+<!-- Binding a colecciones -->
+<DataGrid ItemsSource="{Binding Alumnos}"/>
+
+<!-- Binding a comandos -->
+<Button Command="{Binding AddCommand}" Content="Añadir"/>
+```
+
+### Code-Behind (.xaml.cs)
+Contiene **únicamente** lógica de UI (navegación, eventos de ventana):
+
+```csharp
+public partial class AlumnadoView : Window
+{
+    public AlumnadoView()
+    {
+        InitializeComponent();
+    }
+    
+    // Solo navegación, NO lógica de negocio
+    private void BtnGrupos_Click(object sender, RoutedEventArgs e)
+    {
+        new GruposView().Show();
+        this.Close();
+    }
+}
+```
+
+---
+
+## Patrones de Diseño
+
+### 1. MVVM (Model-View-ViewModel)
+- **Ventajas:**
+  - Separación de UI y lógica
+  - Testeable
+  - Mantenible
+  - Reutilizable
+
+### 2. Repository Pattern
+- **Ventajas:**
+  - Abstrae acceso a datos
+  - Facilita cambio de BD
+  - Centraliza consultas
+
+### 3. Command Pattern (RelayCommand)
+```csharp
+public class RelayCommand : ICommand
+{
+    private readonly Action<object?> _execute;
+    private readonly Func<object?, bool>? _canExecute;
+    
+    public void Execute(object? parameter)
+    {
+        _execute(parameter);
+    }
+    
+    public bool CanExecute(object? parameter)
+    {
+        return _canExecute?.Invoke(parameter) ?? true;
+    }
+}
+```
+
+**Uso:**
+```csharp
+AddCommand = new RelayCommand(Add, _ => !string.IsNullOrEmpty(Nombre));
+```
+
+### 4. Observer Pattern (INotifyPropertyChanged)
+Notifica cambios de propiedades a la UI automáticamente.
+
+### 5. Singleton (DatabaseConnection)
+Una única instancia de configuración de conexión.
+
+---
+
+## Flujo de Datos
+
+### Ejemplo: Añadir un Alumno
+
+1. **Usuario** hace clic en botón "Añadir" en `AlumnadoView.xaml`
+
+2. **Binding** ejecuta `AddCommand` en `AlumnadoViewModel`
+
+3. **ViewModel** valida datos:
+```csharp
+if (string.IsNullOrWhiteSpace(Nombre)) {
+    MessageBox.Show("Nombre obligatorio");
+    return;
+}
+```
+
+4. **ViewModel** crea entidad:
+```csharp
+var nuevoAlumno = new Alumnado {
+    Nombre = Nombre,
+    Apellidos = Apellidos,
+    Curso = Curso
+};
+```
+
+5. **ViewModel** llama al repositorio:
+```csharp
+if (_repository.Add(nuevoAlumno)) { ... }
+```
+
+6. **Repository** ejecuta SQL:
+```csharp
+string query = "INSERT INTO alumnado ...";
+command.ExecuteNonQuery();
+```
+
+7. **ViewModel** recarga datos:
+```csharp
+LoadData(); // Actualiza ObservableCollection
+```
+
+8. **Binding** actualiza DataGrid automáticamente
+
+---
+
+## Comunicación Entre Capas
+
+```
+USER ACTION (Click)
+    ↓
+VIEW (XAML Binding)
+    ↓
+VIEW MODEL (Command)
+    ↓
+REPOSITORY (Query)
+    ↓
+DATABASE (MySQL)
+    ↓
+REPOSITORY (Map to Entity)
+    ↓
+VIEW MODEL (ObservableCollection)
+    ↓
+VIEW (Data Binding Update)
+    ↓
+UI REFRESH
+```
+
+---
+
+## Ventajas de Esta Arquitectura
+
+### 1. Separación de Responsabilidades
+- View: Solo UI
+- ViewModel: Solo lógica de presentación
+- Model: Solo entidades
+- DAL: Solo acceso a datos
+
+### 2. Testeable
+```csharp
+// Se puede mockear el repositorio
+var mockRepo = new Mock<AlumnadoRepository>();
+var viewModel = new AlumnadoViewModel(mockRepo.Object);
+```
+
+### 3. Mantenible
+- Cambiar UI no afecta lógica
+- Cambiar BD no afecta ViewModels
+- Agregar campos es sencillo
+
+### 4. Escalable
+- Fácil agregar nuevas vistas
+- Fácil agregar nuevas entidades
+- Fácil agregar validaciones
+
+---
+
+## Convenciones de Código
+
+### Nombrado
+- **Entidades:** `Alumnado`, `Grupo` (singular)
+- **Repositorios:** `AlumnadoRepository`
+- **ViewModels:** `AlumnadoViewModel`
+- **Views:** `AlumnadoView`
+- **Comandos:** `AddCommand`, `UpdateCommand`
+- **Propiedades privadas:** `_nombre`, `_repository`
+
+### Estructura de Archivos
+```
+Model/
+    Alumnado.cs
+    Grupo.cs
+DAL/
+    DatabaseConnection.cs
+    AlumnadoRepository.cs
+    GrupoRepository.cs
+ViewModel/
+    AlumnadoViewModel.cs
+    GruposViewModel.cs
+View/
+    AlumnadoView.xaml + .cs
+    GruposView.xaml + .cs
+Helpers/
+    RelayCommand.cs
+```
+
+---
+
+## Mejoras Futuras Sugeridas
+
+1. **Inyección de Dependencias**
+   - Usar un contenedor IoC (Autofac, Unity)
+   - Inyectar repositorios en ViewModels
+
+2. **Validaciones con IDataErrorInfo**
+   - Validación más robusta en entidades
+
+3. **Async/Await**
+   - Operaciones de BD asíncronas
+   - Mejor experiencia de usuario
+
+4. **Logging**
+   - Registrar errores y acciones
+   - Usar Serilog o NLog
+
+5. **Configuración Externa**
+   - Cadena de conexión en appsettings.json
+
+6. **Unit Testing**
+   - Tests para ViewModels
+   - Tests para Repositorios
+
+7. **Mensajes de Usuario Centralizados**
+   - Service para MessageBox
+   - Internacionalización (i18n)
+
+---
+
+## Referencias y Recursos
+
+- [Patrón MVVM en WPF](https://learn.microsoft.com/es-es/dotnet/desktop/wpf/data/data-binding-overview)
+- [Repository Pattern](https://learn.microsoft.com/es-es/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design)
+- [Command Pattern](https://learn.microsoft.com/es-es/dotnet/api/system.windows.input.icommand)
+- [ObservableCollection](https://learn.microsoft.com/es-es/dotnet/api/system.collections.objectmodel.observablecollection-1)

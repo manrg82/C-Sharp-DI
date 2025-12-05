@@ -1,0 +1,40 @@
+﻿ESTRUCTURA DEL PROYECTO - MVVM
+
+Login/
++-- Model/
+¦   +-- Alumnado.cs
+¦   +-- Grupo.cs
+¦
++-- View/
+¦   +-- LoginView.xaml + .cs
+¦   +-- AlumnadoView.xaml + .cs
+¦   +-- GruposView.xaml + .cs
+¦
++-- ViewModel/
+¦   +-- AlumnadoViewModel.cs
+¦   +-- GruposViewModel.cs
+¦
++-- DAL/
+¦   +-- DbBroker.cs
+¦
++-- Helpers/
+¦   +-- RelayCommand.cs
+¦
++-- Resources/
+¦   +-- Dictionary1.xaml
+¦
++-- Images/
+¦   +-- back-image.jpg
+¦   +-- key-icon.png
+¦   +-- user-icon.png
+¦   +-- logotipo-ies-maestredecalatrava-1.png
+¦   +-- logo.png
+¦
++-- database.sql
+
+CREDENCIALES:
+Usuario: admin
+Password: admin
+
+CONFIGURACION BD:
+Editar: DAL/DbBroker.cs (linea 13)

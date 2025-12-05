@@ -1,0 +1,34 @@
+﻿using MySql.Data.MySqlClient;
+
+namespace WPF_LoginForm.DAL
+{
+    public class DatabaseConnection
+    {
+        private static string _connectionString = "Server=localhost;Database=minihito2;User=root;Password=;";
+
+        public static string ConnectionString
+        {
+            get => _connectionString;
+            set => _connectionString = value;
+        }
+
+        public static MySqlConnection GetConnection()
+        {
+            return new MySqlConnection(_connectionString);
+        }
+
+        public static bool TestConnection()
+        {
+            try
+            {
+                using var connection = GetConnection();
+                connection.Open();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    }
+}

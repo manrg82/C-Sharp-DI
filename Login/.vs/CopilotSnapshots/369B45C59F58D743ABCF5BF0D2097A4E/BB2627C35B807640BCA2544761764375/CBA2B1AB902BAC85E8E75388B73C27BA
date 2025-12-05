@@ -1,0 +1,176 @@
+﻿# Refactorización a DbBroker - Resumen
+
+## ✅ Cambios Realizados
+
+### 1. Archivos ELIMINADOS
+```
+❌ DAL/DatabaseConnection.cs
+❌ DAL/AlumnadoRepository.cs
+❌ DAL/GrupoRepository.cs
+```
+
+### 2. Archivos CREADOS
+```
+✅ DAL/DbBroker.cs (Clase única de acceso a BD)
+```
+
+### 3. Archivos MODIFICADOS
+```
+🔧 ViewModel/AlumnadoViewModel.cs
+   - Cambiado: AlumnadoRepository → DbBroker.Instance
+   
+🔧 ViewModel/GruposViewModel.cs
+   - Cambiado: AlumnadoRepository + GrupoRepository → DbBroker.Instance
+```
+
+---
+
+## 📊 Comparación de Código
+
+### ANTES (Repository Pattern)
+```csharp
+// AlumnadoViewModel.cs
+private readonly AlumnadoRepository _repository;
+
+public AlumnadoViewModel()
+{
+    _repository = new AlumnadoRepository();
+    LoadData();
+}
+
+private void LoadData()
+{
+    var alumnos = _repository.GetAll();
+    // ...
+}
+```
+
+### AHORA (DbBroker Pattern)
+```csharp
+// AlumnadoViewModel.cs
+private readonly DbBroker _dbBroker;
+
+public AlumnadoViewModel()
+{
+    _dbBroker = DbBroker.Instance; // ⭐ Singleton
+    LoadData();
+}
+
+private void LoadData()
+{
+    var alumnos = _dbBroker.GetAllAlumnos();
+    // ...
+}
+```
+
+---
+
+## 🎯 Ventajas del DbBroker
+
+| Aspecto | Repository | DbBroker |
+|---------|-----------|----------|
+| **Archivos DAL** | 3 archivos | 1 archivo ⭐ |
+| **Instancias** | Múltiples | Una sola (Singleton) ⭐ |
+| **Complejidad** | Media | Baja ⭐ |
+| **Código en ViewModel** | Más verboso | Más simple ⭐ |
+| **Centralización SQL** | Disperso | Todo en un lugar ⭐ |
+
+---
+
+## 🔧 Métodos en DbBroker
+
+### Alumnado
+```csharp
+GetAllAlumnos()          // SELECT * FROM alumnado
+GetAlumnosSinAsignar()   // WHERE grupo IS NULL
+GetAlumnosByGrupo(int)   // WHERE grupo = @id
+InsertAlumno(Alumnado)   // INSERT INTO alumnado
+UpdateAlumno(Alumnado)   // UPDATE alumnado
+DeleteAlumno(int)        // DELETE FROM alumnado
+```
+
+### Grupos
+```csharp
+GetAllGrupos()          // SELECT * FROM grupo
+InsertGrupo(Grupo)      // INSERT INTO grupo
+UpdateGrupo(Grupo)      // UPDATE grupo
+DeleteGrupo(int)        // DELETE FROM grupo
+```
+
+### Utilidades
+```csharp
+TestConnection()        // Prueba de conexión a BD
+```
+
+---
+
+## 🚀 Cómo Usar
+
+### En cualquier ViewModel:
+```csharp
+// 1. Declarar campo
+private readonly DbBroker _dbBroker;
+
+// 2. Obtener instancia en constructor
+public MiViewModel()
+{
+    _dbBroker = DbBroker.Instance;
+}
+
+// 3. Usar métodos
+var alumnos = _dbBroker.GetAllAlumnos();
+var grupos = _dbBroker.GetAllGrupos();
+_dbBroker.InsertAlumno(nuevo);
+_dbBroker.UpdateGrupo(modificado);
+```
+
+---
+
+## 📍 Configuración
+
+### Cambiar cadena de conexión:
+```csharp
+// DbBroker.cs - línea 13
+private DbBroker()
+{
+    _connectionString = "Server=localhost;Database=minihito2;User=root;Password=;";
+}
+```
+
+---
+
+## ✅ Estado del Proyecto
+
+- ✅ Compilación exitosa
+- ✅ Funcionalidad intacta
+- ✅ Código más simple
+- ✅ Menos archivos
+- ✅ Patrón Singleton implementado
+
+---
+
+## 📚 Arquitectura Final
+
+```
+Login/
+├── Model/
+│   ├── Alumnado.cs
+│   └── Grupo.cs
+├── View/
+│   ├── LoginView.xaml + .cs
+│   ├── AlumnadoView.xaml + .cs
+│   └── GruposView.xaml + .cs
+├── ViewModel/
+│   ├── AlumnadoViewModel.cs    (usa DbBroker.Instance)
+│   └── GruposViewModel.cs      (usa DbBroker.Instance)
+├── DAL/
+│   └── DbBroker.cs             ⭐ ÚNICA CLASE DE BD
+└── Helpers/
+    └── RelayCommand.cs
+```
+
+---
+
+**¡Refactorización completada! 🎉**
+
+El proyecto ahora usa DbBroker (Broker Pattern) en lugar de múltiples repositorios.

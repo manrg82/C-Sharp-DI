@@ -9,8 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
+    <Resource Include="Images\back-image.jpg" />
+    <Resource Include="Images\key-icon.png" />
+    <Resource Include="Images\user-icon.png" />
+    <Resource Include="Images\logotipo-ies-maestredecalatrava-1.png" />
+    <Resource Include="Images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.5.0" />
   </ItemGroup>
 
 </Project>

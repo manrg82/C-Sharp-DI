@@ -1,0 +1,41 @@
+﻿-- Crear base de datos
+CREATE DATABASE IF NOT EXISTS minihito2;
+USE minihito2;
+
+-- Tabla grupo
+CREATE TABLE IF NOT EXISTS grupo (
+    idgrupo INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
+
+-- Tabla alumnado
+CREATE TABLE IF NOT EXISTS alumnado (
+    idalumnado INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(150) NOT NULL,
+    curso VARCHAR(10) NOT NULL,
+    grupo INT NULL,
+    FOREIGN KEY (grupo) REFERENCES grupo(idgrupo) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Insertar datos de ejemplo (10 alumnos)
+INSERT INTO alumnado (nombre, apellidos, curso, grupo) VALUES
+('Juan', 'García López', 'SCI1', NULL),
+('María', 'Martínez Pérez', 'SCI1', NULL),
+('Pedro', 'Sánchez Ruiz', 'SCI2', NULL),
+('Ana', 'González Fernández', 'SCI1', NULL),
+('Luis', 'Rodríguez Gómez', 'SCI2', NULL),
+('Carmen', 'Hernández Díaz', 'SCI1', NULL),
+('José', 'López Moreno', 'SCI2', NULL),
+('Isabel', 'Jiménez Torres', 'SCI1', NULL),
+('Miguel', 'Ramírez Flores', 'SCI2', NULL),
+('Laura', 'Navarro Castro', 'SCI1', NULL);
+
+-- Insertar algunos grupos de ejemplo
+INSERT INTO grupo (nombre) VALUES
+('Grupo A'),
+('Grupo B');
+
+-- Asignar algunos alumnos a grupos de ejemplo
+UPDATE alumnado SET grupo = 1 WHERE idalumnado IN (1, 2);
+UPDATE alumnado SET grupo = 2 WHERE idalumnado IN (3, 4);

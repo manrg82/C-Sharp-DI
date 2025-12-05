@@ -1,0 +1,76 @@
+﻿using MySql.Data.MySqlClient;
+using System.Collections.Generic;
+using WPF_LoginForm.Model;
+
+namespace WPF_LoginForm.DAL
+{
+    public class GrupoRepository
+    {
+        public List<Grupo> GetAll()
+        {
+            var grupos = new List<Grupo>();
+
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "SELECT idgrupo, nombre FROM grupo";
+            using var command = new MySqlCommand(query, connection);
+            using var reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                grupos.Add(new Grupo
+                {
+                    IdGrupo = reader.GetInt32("idgrupo"),
+                    Nombre = reader.GetString("nombre")
+                });
+            }
+
+            return grupos;
+        }
+
+        public int Add(Grupo grupo)
+        {
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "INSERT INTO grupo (nombre) VALUES (@nombre); SELECT LAST_INSERT_ID();";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@nombre", grupo.Nombre);
+
+            return Convert.ToInt32(command.ExecuteScalar());
+        }
+
+        public bool Update(Grupo grupo)
+        {
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "UPDATE grupo SET nombre=@nombre WHERE idgrupo=@id";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", grupo.IdGrupo);
+            command.Parameters.AddWithValue("@nombre", grupo.Nombre);
+
+            return command.ExecuteNonQuery() > 0;
+        }
+
+        public bool Delete(int id)
+        {
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            // Primero liberar los alumnos del grupo (poner grupo a NULL)
+            string queryAlumnos = "UPDATE alumnado SET grupo=NULL WHERE grupo=@id";
+            using var commandAlumnos = new MySqlCommand(queryAlumnos, connection);
+            commandAlumnos.Parameters.AddWithValue("@id", id);
+            commandAlumnos.ExecuteNonQuery();
+
+            // Luego eliminar el grupo
+            string query = "DELETE FROM grupo WHERE idgrupo=@id";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", id);
+
+            return command.ExecuteNonQuery() > 0;
+        }
+    }
+}

@@ -1,0 +1,171 @@
+﻿# Instrucciones de Configuración Rápida
+
+## 1. Configurar Base de Datos
+
+### Opción A: Usando MySQL Workbench
+1. Abre MySQL Workbench
+2. Conecta a tu servidor local
+3. Abre el archivo `database.sql`
+4. Ejecuta el script completo (icono del rayo)
+
+### Opción B: Desde línea de comandos
+```bash
+mysql -u root -p < database.sql
+```
+
+## 2. Configurar Conexión
+
+Edita el archivo: `DAL/DatabaseConnection.cs`
+
+Línea 7:
+```csharp
+private static string _connectionString = "Server=localhost;Database=minihito2;User=root;Password=;";
+```
+
+**Parámetros a ajustar:**
+- `Server`: localhost (o tu servidor MySQL)
+- `Database`: minihito2 (nombre de la BD)
+- `User`: root (tu usuario MySQL)
+- `Password`: (tu contraseña MySQL, vacía por defecto)
+
+### Ejemplos de cadenas de conexión:
+
+**Sin contraseña (XAMPP/WAMP por defecto):**
+```csharp
+"Server=localhost;Database=minihito2;User=root;Password=;"
+```
+
+**Con contraseña:**
+```csharp
+"Server=localhost;Database=minihito2;User=root;Password=miPassword123;"
+```
+
+**Puerto personalizado (si no usas 3306):**
+```csharp
+"Server=localhost;Port=3307;Database=minihito2;User=root;Password=;"
+```
+
+**Servidor remoto:**
+```csharp
+"Server=192.168.1.100;Database=minihito2;User=usuario;Password=pass;"
+```
+
+## 3. Verificar MySQL está corriendo
+
+### Windows (XAMPP):
+- Abre el Panel de Control de XAMPP
+- Verifica que MySQL está "Running" (verde)
+- Si no, haz clic en "Start"
+
+### Windows (Servicio):
+```powershell
+Get-Service -Name MySQL*
+```
+
+Si está detenido:
+```powershell
+Start-Service -Name MySQL80
+```
+
+## 4. Probar Conexión
+
+Ejecuta el proyecto y verifica:
+1. Login funciona (admin/admin)
+2. Se carga la vista de Alumnado
+3. Aparecen los 10 alumnos de prueba
+
+### Si hay error de conexión:
+- Verifica que MySQL esté corriendo
+- Revisa la cadena de conexión
+- Comprueba usuario y contraseña
+- Verifica que la base de datos `minihito2` existe
+
+## 5. Credenciales de la Aplicación
+
+**Login:**
+- Usuario: `admin`
+- Contraseña: `admin`
+
+## 6. Datos de Prueba Incluidos
+
+El script `database.sql` crea:
+- ✅ 10 alumnos de ejemplo
+- ✅ 2 grupos de ejemplo (Grupo A y Grupo B)
+- ✅ Algunos alumnos ya asignados a grupos
+- ✅ Alumnos sin asignar para probar la funcionalidad
+
+## 7. Solución de Problemas Comunes
+
+### Error: "Access denied for user 'root'@'localhost'"
+**Solución:** Contraseña incorrecta. Actualiza `Password=` en la cadena de conexión.
+
+### Error: "Unknown database 'minihito2'"
+**Solución:** La base de datos no existe. Ejecuta el script `database.sql`.
+
+### Error: "Unable to connect to any of the specified MySQL hosts"
+**Solución:** MySQL no está corriendo. Inicia el servicio MySQL.
+
+### Los alumnos no aparecen
+**Solución:** 
+1. Verifica que ejecutaste el script completo
+2. Comprueba que hay datos:
+```sql
+USE minihito2;
+SELECT * FROM alumnado;
+```
+
+## 8. Estructura de la Base de Datos
+
+```
+minihito2
+├── grupo
+│   ├── idgrupo (PK)
+│   └── nombre
+└── alumnado
+    ├── idalumnado (PK)
+    ├── nombre
+    ├── apellidos
+    ├── curso
+    └── grupo (FK → grupo.idgrupo)
+```
+
+## 9. Funcionalidades Disponibles
+
+### Pantalla de Alumnado:
+- ✅ Ver todos los alumnos
+- ✅ Buscar por nombre/apellidos/curso
+- ✅ Añadir nuevo alumno
+- ✅ Modificar alumno seleccionado
+- ✅ Eliminar alumno (con confirmación)
+
+### Pantalla de Grupos:
+- ✅ Ver alumnos sin asignar
+- ✅ Ver alumnos de un grupo
+- ✅ Asignar alumnos a grupos
+- ✅ Desasignar alumnos
+- ✅ Crear nuevos grupos
+- ✅ Modificar grupos
+- ✅ Eliminar grupos (con confirmación)
+
+## 10. Ejecutar la Aplicación
+
+### Desde Visual Studio:
+1. Abre la solución `Login.sln`
+2. Presiona `F5` (Debug) o `Ctrl+F5` (Sin Debug)
+
+### Desde terminal:
+```bash
+cd C:\Users\dam2\Documents\C-Sharp-DI\Login\Login
+dotnet run
+```
+
+## 11. Navegación
+
+1. **Login** → Introduce admin/admin → Click "LOG IN"
+2. **Alumnado** → Gestiona alumnos
+3. **Click en "GRUPOS"** → Gestiona grupos y asignaciones
+4. **Click en "Volver a Alumnado"** → Regresa a alumnado
+
+---
+
+¿Problemas? Revisa el `README.md` completo o contacta al profesor.

@@ -1,0 +1,131 @@
+﻿using MySql.Data.MySqlClient;
+using System.Collections.Generic;
+using WPF_LoginForm.Model;
+
+namespace WPF_LoginForm.DAL
+{
+    public class AlumnadoRepository
+    {
+        public List<Alumnado> GetAll()
+        {
+            var alumnos = new List<Alumnado>();
+
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "SELECT idalumnado, nombre, apellidos, curso, grupo FROM alumnado";
+            using var command = new MySqlCommand(query, connection);
+            using var reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                alumnos.Add(new Alumnado
+                {
+                    IdAlumnado = reader.GetInt32("idalumnado"),
+                    Nombre = reader.GetString("nombre"),
+                    Apellidos = reader.GetString("apellidos"),
+                    Curso = reader.GetString("curso"),
+                    GrupoId = reader.IsDBNull(reader.GetOrdinal("grupo")) ? null : reader.GetInt32("grupo")
+                });
+            }
+
+            return alumnos;
+        }
+
+        public List<Alumnado> GetSinAsignar()
+        {
+            var alumnos = new List<Alumnado>();
+
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "SELECT idalumnado, nombre, apellidos, curso, grupo FROM alumnado WHERE grupo IS NULL";
+            using var command = new MySqlCommand(query, connection);
+            using var reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                alumnos.Add(new Alumnado
+                {
+                    IdAlumnado = reader.GetInt32("idalumnado"),
+                    Nombre = reader.GetString("nombre"),
+                    Apellidos = reader.GetString("apellidos"),
+                    Curso = reader.GetString("curso"),
+                    GrupoId = null
+                });
+            }
+
+            return alumnos;
+        }
+
+        public List<Alumnado> GetByGrupo(int grupoId)
+        {
+            var alumnos = new List<Alumnado>();
+
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "SELECT idalumnado, nombre, apellidos, curso, grupo FROM alumnado WHERE grupo = @grupo";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@grupo", grupoId);
+            using var reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                alumnos.Add(new Alumnado
+                {
+                    IdAlumnado = reader.GetInt32("idalumnado"),
+                    Nombre = reader.GetString("nombre"),
+                    Apellidos = reader.GetString("apellidos"),
+                    Curso = reader.GetString("curso"),
+                    GrupoId = reader.GetInt32("grupo")
+                });
+            }
+
+            return alumnos;
+        }
+
+        public bool Add(Alumnado alumno)
+        {
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "INSERT INTO alumnado (nombre, apellidos, curso, grupo) VALUES (@nombre, @apellidos, @curso, @grupo)";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@nombre", alumno.Nombre);
+            command.Parameters.AddWithValue("@apellidos", alumno.Apellidos);
+            command.Parameters.AddWithValue("@curso", alumno.Curso);
+            command.Parameters.AddWithValue("@grupo", alumno.GrupoId.HasValue ? (object)alumno.GrupoId.Value : DBNull.Value);
+
+            return command.ExecuteNonQuery() > 0;
+        }
+
+        public bool Update(Alumnado alumno)
+        {
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "UPDATE alumnado SET nombre=@nombre, apellidos=@apellidos, curso=@curso, grupo=@grupo WHERE idalumnado=@id";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", alumno.IdAlumnado);
+            command.Parameters.AddWithValue("@nombre", alumno.Nombre);
+            command.Parameters.AddWithValue("@apellidos", alumno.Apellidos);
+            command.Parameters.AddWithValue("@curso", alumno.Curso);
+            command.Parameters.AddWithValue("@grupo", alumno.GrupoId.HasValue ? (object)alumno.GrupoId.Value : DBNull.Value);
+
+            return command.ExecuteNonQuery() > 0;
+        }
+
+        public bool Delete(int id)
+        {
+            using var connection = DatabaseConnection.GetConnection();
+            connection.Open();
+
+            string query = "DELETE FROM alumnado WHERE idalumnado=@id";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", id);
+
+            return command.ExecuteNonQuery() > 0;
+        }
+    }
+}

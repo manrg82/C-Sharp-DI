@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\persistencia\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\persistencia\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\alumnadoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\alumnadoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\alumnadoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\alumnadoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\gruposview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\gruposview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\resources\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\resources\\dictionary1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\viewmodel\\alumnadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\viewmodel\\alumnadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\login\\login\\viewmodel\\gruposviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\viewmodel\\gruposviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,6 +55,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DbBroker.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
+              "RelativeDocumentMoniker": "Login\\Persistencia\\DbBroker.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
+              "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:53:15.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dictionary1.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Resources\\Dictionary1.xaml",
+              "RelativeDocumentMoniker": "Login\\Resources\\Dictionary1.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Resources\\Dictionary1.xaml",
+              "RelativeToolTip": "Login\\Resources\\Dictionary1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-05T11:51:48.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml",
               "RelativeDocumentMoniker": "Login\\View\\LoginView.xaml",
@@ -46,27 +91,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\View\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml.cs",
-              "RelativeToolTip": "Login\\View\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AlumnadoView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\AlumnadoView.xaml.cs",
+              "RelativeDocumentMoniker": "Login\\View\\AlumnadoView.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\AlumnadoView.xaml.cs",
+              "RelativeToolTip": "Login\\View\\AlumnadoView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T13:15:28.218Z",
+              "WhenOpened": "2025-12-05T11:45:53.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\App.xaml",
-              "RelativeDocumentMoniker": "Login\\App.xaml",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\App.xaml",
-              "RelativeToolTip": "Login\\App.xaml",
+              "DocumentIndex": 1,
+              "Title": "AlumnadoView.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\AlumnadoView.xaml",
+              "RelativeDocumentMoniker": "Login\\View\\AlumnadoView.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\AlumnadoView.xaml",
+              "RelativeToolTip": "Login\\View\\AlumnadoView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-03T13:08:36.939Z",
+              "WhenOpened": "2025-12-05T11:45:52.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GruposView.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\GruposView.xaml",
+              "RelativeDocumentMoniker": "Login\\View\\GruposView.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\GruposView.xaml",
+              "RelativeToolTip": "Login\\View\\GruposView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-05T11:45:54.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GruposViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\ViewModel\\GruposViewModel.cs",
+              "RelativeDocumentMoniker": "Login\\ViewModel\\GruposViewModel.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\ViewModel\\GruposViewModel.cs",
+              "RelativeToolTip": "Login\\ViewModel\\GruposViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwCcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:45:51.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlumnadoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\ViewModel\\AlumnadoViewModel.cs",
+              "RelativeDocumentMoniker": "Login\\ViewModel\\AlumnadoViewModel.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\ViewModel\\AlumnadoViewModel.cs",
+              "RelativeToolTip": "Login\\ViewModel\\AlumnadoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwPcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:45:51.609Z",
               "EditorCaption": ""
             }
           ]

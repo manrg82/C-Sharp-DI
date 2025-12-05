@@ -1,0 +1,19 @@
+using System.Windows;
+
+namespace WPF_LoginForm.View
+{
+    public partial class AlumnadoView : Window
+    {
+        public AlumnadoView()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnGrupos_Click(object sender, RoutedEventArgs e)
+        {
+            var gruposView = new GruposView();
+            gruposView.Show();
+            this.Close();
+        }
+    }
+}

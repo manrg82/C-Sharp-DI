@@ -1,0 +1,239 @@
+﻿# MINIHITO 2 - Gestión de Alumnado y Grupos
+
+## Descripción
+Proyecto WPF con arquitectura en capas (Model-View-ViewModel) para la gestión de alumnado y grupos del IES Maestre de Calatrava.
+
+## Características Implementadas
+
+### Parte 1: Gestión de Alumnado ✅
+- ✅ Cargar alumnado desde base de datos
+- ✅ Añadir nuevo alumnado (sincronizado con BD)
+- ✅ Modificar alumnado (sincronizado con BD)
+- ✅ Eliminar alumnado con confirmación (sincronizado con BD)
+- ✅ Buscador en tiempo real
+- ✅ Interfaz gráfica con DataGrid
+- ✅ Campos: Nombre, Apellidos, Curso (SCI1/SCI2)
+
+### Parte 2: Gestión de Grupos ✅
+- ✅ Listar alumnado sin asignar
+- ✅ Asignar/Desasignar alumnos a grupos
+- ✅ Crear grupos
+- ✅ Modificar grupos
+- ✅ Eliminar grupos con confirmación
+- ✅ Sincronización completa con base de datos
+- ✅ Patrón Maestro/Esclavo implementado
+
+### Extra Implementado 🎁
+- ✅ CRUD completo de grupos en base de datos (+1 punto)
+- ✅ Login funcional (usuario: admin, contraseña: admin)
+- ✅ Navegación entre vistas
+
+## Arquitectura del Proyecto
+
+```
+Login/
+├── Model/                  # Entidades del dominio
+│   ├── Alumnado.cs
+│   └── Grupo.cs
+├── View/                   # Interfaces de usuario
+│   ├── LoginView.xaml
+│   ├── AlumnadoView.xaml
+│   └── GruposView.xaml
+├── ViewModel/              # Lógica de presentación
+│   ├── AlumnadoViewModel.cs
+│   └── GruposViewModel.cs
+├── DAL/                    # Capa de persistencia
+│   ├── DatabaseConnection.cs
+│   ├── AlumnadoRepository.cs
+│   └── GrupoRepository.cs
+├── Helpers/
+│   └── RelayCommand.cs
+└── database.sql            # Script de base de datos
+```
+
+## Requisitos Previos
+
+1. **.NET 8 SDK** instalado
+2. **MySQL Server** instalado y en ejecución
+3. **Visual Studio 2022** o superior
+
+## Configuración de la Base de Datos
+
+### 1. Crear la base de datos
+Ejecuta el archivo `database.sql` en tu servidor MySQL:
+
+```bash
+mysql -u root -p < database.sql
+```
+
+O desde MySQL Workbench, abre y ejecuta el archivo `database.sql`.
+
+### 2. Configurar la cadena de conexión
+Edita el archivo `DAL/DatabaseConnection.cs` si es necesario:
+
+```csharp
+private static string _connectionString = "Server=localhost;Database=minihito2;User=root;Password=;";
+```
+
+**Parámetros:**
+- `Server`: Dirección del servidor MySQL (por defecto: localhost)
+- `Database`: Nombre de la base de datos (minihito2)
+- `User`: Usuario de MySQL (por defecto: root)
+- `Password`: Contraseña (vacía por defecto, ajusta según tu configuración)
+
+## Instalación y Ejecución
+
+### 1. Clonar/Abrir el proyecto
+```bash
+cd C:\Users\dam2\Documents\C-Sharp-DI\Login
+```
+
+### 2. Restaurar paquetes NuGet
+```bash
+dotnet restore
+```
+
+### 3. Compilar el proyecto
+```bash
+dotnet build
+```
+
+### 4. Ejecutar la aplicación
+```bash
+dotnet run --project Login/Login.csproj
+```
+
+O desde Visual Studio: **F5** o **Ctrl+F5**
+
+## Credenciales de Login
+
+- **Usuario:** admin
+- **Contraseña:** admin
+
+## Uso de la Aplicación
+
+### Pantalla de Login
+1. Introduce las credenciales (admin/admin)
+2. Haz clic en "LOG IN"
+
+### Gestión de Alumnado
+1. **Búsqueda:** Escribe en la barra superior para filtrar
+2. **Añadir:** 
+   - Rellena los campos (Nombre, Apellidos, Curso)
+   - Clic en "Añadir"
+3. **Modificar:**
+   - Selecciona un alumno del DataGrid
+   - Modifica los campos
+   - Clic en "Modificar"
+4. **Eliminar:**
+   - Selecciona un alumno
+   - Clic en "Eliminar"
+   - Confirma la acción
+
+### Gestión de Grupos
+1. Haz clic en el botón "GRUPOS" del menú lateral
+2. **Crear Grupo:**
+   - Escribe el nombre del grupo
+   - Clic en "Crear Grupo"
+3. **Asignar Alumnos:**
+   - Selecciona un grupo de la lista
+   - Selecciona alumnos sin asignar
+   - Clic en ">" para asignar
+4. **Desasignar Alumnos:**
+   - Selecciona alumnos del grupo
+   - Clic en "<" para liberar
+5. **Modificar Grupo:**
+   - Selecciona el grupo
+   - Cambia el nombre
+   - Clic en "Modificar Grupo"
+6. **Eliminar Grupo:**
+   - Selecciona el grupo
+   - Clic en "Eliminar Grupo"
+   - Confirma (los alumnos se liberarán)
+
+## Tecnologías Utilizadas
+
+- **.NET 8** - Framework principal
+- **WPF** - Windows Presentation Foundation
+- **MVVM** - Patrón Model-View-ViewModel
+- **MySQL** - Base de datos
+- **MySql.Data** - Conector para .NET
+- **INotifyPropertyChanged** - Binding bidireccional
+- **ICommand** - Comandos MVVM
+
+## Estructura de la Base de Datos
+
+### Tabla: grupo
+| Campo   | Tipo        | Descripción          |
+|---------|-------------|----------------------|
+| idgrupo | INT (PK)    | ID único del grupo   |
+| nombre  | VARCHAR(100)| Nombre del grupo     |
+
+### Tabla: alumnado
+| Campo      | Tipo         | Descripción                    |
+|------------|--------------|--------------------------------|
+| idalumnado | INT (PK)     | ID único del alumno            |
+| nombre     | VARCHAR(100) | Nombre del alumno              |
+| apellidos  | VARCHAR(150) | Apellidos del alumno           |
+| curso      | VARCHAR(10)  | Curso (SCI1 o SCI2)            |
+| grupo      | INT (FK)     | FK a grupo.idgrupo (nullable)  |
+
+**Relación:** Un grupo puede tener muchos alumnos (1:N)
+
+## Patrones de Diseño Implementados
+
+1. **MVVM (Model-View-ViewModel)**: Separación clara de responsabilidades
+2. **Repository Pattern**: Capa de acceso a datos abstracta
+3. **Command Pattern**: RelayCommand para acciones de la UI
+4. **Singleton**: DatabaseConnection para gestión de conexiones
+5. **Observer Pattern**: INotifyPropertyChanged para actualización de UI
+
+## Validaciones Implementadas
+
+- ✅ Campos obligatorios (Nombre, Apellidos)
+- ✅ Confirmación antes de eliminar
+- ✅ Validación de conexión a BD
+- ✅ Manejo de excepciones con mensajes claros
+- ✅ Selección de curso mediante ComboBox (solo SCI1/SCI2)
+
+## Puntuación Estimada
+
+| Criterio                                    | Puntos | Estado |
+|---------------------------------------------|--------|--------|
+| Interfaz gráfica Parte 1                    | 1.5    | ✅     |
+| Conexión BD - Cargar                        | 0.5    | ✅     |
+| Conexión BD - Crear                         | 0.5    | ✅     |
+| Conexión BD - Modificar                     | 0.5    | ✅     |
+| Conexión BD - Eliminar                      | 0.5    | ✅     |
+| Interfaz gráfica Parte 2                    | 2.0    | ✅     |
+| Cargar alumnado no asignado                 | 1.0    | ✅     |
+| Funcionalidad completa vista                | 2.5    | ✅     |
+| **OPCIONAL:** CRUD Grupos en BD             | 1.0    | ✅     |
+| **TOTAL**                                   | **10** | ✅     |
+
+## Mejoras Implementadas (Extras)
+
+- 🎨 Interfaz moderna y profesional
+- 🔍 Buscador en tiempo real
+- 🎯 Navegación fluida entre vistas
+- 🔐 Sistema de login funcional
+- 📊 DataGrid con diseño limpio
+- ✨ Efectos hover en botones
+- 🎨 Paleta de colores coherente
+- 📱 Diseño responsive
+
+## Problemas Conocidos y Soluciones
+
+### Error de conexión a MySQL
+**Solución:** Verifica que MySQL está en ejecución y las credenciales son correctas en `DatabaseConnection.cs`
+
+### Imágenes no se muestran en Login
+**Solución:** Las imágenes están configuradas como recursos embebidos en el .csproj
+
+## Autor
+- Proyecto desarrollado para el Minihito 2
+- IES Maestre de Calatrava
+- Curso: 2025-2026
+
+## Licencia
+Proyecto educativo - Uso académico

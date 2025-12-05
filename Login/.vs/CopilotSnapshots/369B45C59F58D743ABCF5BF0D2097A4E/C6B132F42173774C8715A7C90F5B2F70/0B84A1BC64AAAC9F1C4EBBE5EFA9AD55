@@ -1,0 +1,295 @@
+﻿using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Windows;
+using System.Windows.Input;
+using WPF_LoginForm.DAL;
+using WPF_LoginForm.Helpers;
+using WPF_LoginForm.Model;
+
+namespace WPF_LoginForm.ViewModel
+{
+    public class GruposViewModel : INotifyPropertyChanged
+    {
+        private readonly DbBroker _dbBroker;
+
+        private ObservableCollection<Alumnado> _alumnosSinAsignar;
+        private ObservableCollection<Alumnado> _alumnosSeleccionados;
+        private ObservableCollection<Grupo> _grupos;
+
+        private Alumnado? _selectedAlumnoSinAsignar;
+        private Alumnado? _selectedAlumnoAsignado;
+        private Grupo? _selectedGrupo;
+        private string _nombreGrupo = string.Empty;
+
+        public ObservableCollection<Alumnado> AlumnosSinAsignar
+        {
+            get => _alumnosSinAsignar;
+            set
+            {
+                _alumnosSinAsignar = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ObservableCollection<Alumnado> AlumnosSeleccionados
+        {
+            get => _alumnosSeleccionados;
+            set
+            {
+                _alumnosSeleccionados = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ObservableCollection<Grupo> Grupos
+        {
+            get => _grupos;
+            set
+            {
+                _grupos = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public Alumnado? SelectedAlumnoSinAsignar
+        {
+            get => _selectedAlumnoSinAsignar;
+            set
+            {
+                _selectedAlumnoSinAsignar = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public Alumnado? SelectedAlumnoAsignado
+        {
+            get => _selectedAlumnoAsignado;
+            set
+            {
+                _selectedAlumnoAsignado = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public Grupo? SelectedGrupo
+        {
+            get => _selectedGrupo;
+            set
+            {
+                _selectedGrupo = value;
+                OnPropertyChanged();
+                if (value != null)
+                {
+                    NombreGrupo = value.Nombre;
+                    LoadAlumnosDelGrupo(value.IdGrupo);
+                }
+            }
+        }
+
+        public string NombreGrupo
+        {
+            get => _nombreGrupo;
+            set
+            {
+                _nombreGrupo = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ICommand AsignarCommand { get; }
+        public ICommand DesasignarCommand { get; }
+        public ICommand CrearGrupoCommand { get; }
+        public ICommand ModificarGrupoCommand { get; }
+        public ICommand EliminarGrupoCommand { get; }
+
+        public GruposViewModel()
+        {
+            _dbBroker = DbBroker.Instance;
+
+            _alumnosSinAsignar = new ObservableCollection<Alumnado>();
+            _alumnosSeleccionados = new ObservableCollection<Alumnado>();
+            _grupos = new ObservableCollection<Grupo>();
+
+            AsignarCommand = new RelayCommand(Asignar, _ => SelectedAlumnoSinAsignar != null);
+            DesasignarCommand = new RelayCommand(Desasignar, _ => SelectedAlumnoAsignado != null);
+            CrearGrupoCommand = new RelayCommand(CrearGrupo);
+            ModificarGrupoCommand = new RelayCommand(ModificarGrupo, _ => SelectedGrupo != null);
+            EliminarGrupoCommand = new RelayCommand(EliminarGrupo, _ => SelectedGrupo != null);
+
+            LoadData();
+        }
+
+        private void LoadData()
+        {
+            try
+            {
+                // Cargar alumnos sin asignar
+                var sinAsignar = _dbBroker.GetAlumnosSinAsignar();
+                AlumnosSinAsignar.Clear();
+                foreach (var alumno in sinAsignar)
+                {
+                    AlumnosSinAsignar.Add(alumno);
+                }
+
+                // Cargar grupos
+                var grupos = _dbBroker.GetAllGrupos();
+                Grupos.Clear();
+                foreach (var grupo in grupos)
+                {
+                    Grupos.Add(grupo);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar datos: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void LoadAlumnosDelGrupo(int grupoId)
+        {
+            try
+            {
+                var alumnos = _dbBroker.GetAlumnosByGrupo(grupoId);
+                AlumnosSeleccionados.Clear();
+                foreach (var alumno in alumnos)
+                {
+                    AlumnosSeleccionados.Add(alumno);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar alumnos del grupo: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void Asignar(object? parameter)
+        {
+            if (SelectedAlumnoSinAsignar == null || SelectedGrupo == null)
+            {
+                MessageBox.Show("Debe seleccionar un alumno y un grupo", "Validacion", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            try
+            {
+                SelectedAlumnoSinAsignar.GrupoId = SelectedGrupo.IdGrupo;
+                _dbBroker.UpdateAlumno(SelectedAlumnoSinAsignar);
+
+                AlumnosSeleccionados.Add(SelectedAlumnoSinAsignar);
+                AlumnosSinAsignar.Remove(SelectedAlumnoSinAsignar);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al asignar alumno: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void Desasignar(object? parameter)
+        {
+            if (SelectedAlumnoAsignado == null) return;
+
+            try
+            {
+                SelectedAlumnoAsignado.GrupoId = null;
+                _dbBroker.UpdateAlumno(SelectedAlumnoAsignado);
+
+                AlumnosSinAsignar.Add(SelectedAlumnoAsignado);
+                AlumnosSeleccionados.Remove(SelectedAlumnoAsignado);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al desasignar alumno: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void CrearGrupo(object? parameter)
+        {
+            if (string.IsNullOrWhiteSpace(NombreGrupo))
+            {
+                MessageBox.Show("El nombre del grupo es obligatorio", "Validacion", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            try
+            {
+                var nuevoGrupo = new Grupo { Nombre = NombreGrupo };
+                int idGrupo = _dbBroker.InsertGrupo(nuevoGrupo);
+                nuevoGrupo.IdGrupo = idGrupo;
+
+                Grupos.Add(nuevoGrupo);
+                NombreGrupo = string.Empty;
+                AlumnosSeleccionados.Clear();
+
+                MessageBox.Show("Grupo creado correctamente", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al crear grupo: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void ModificarGrupo(object? parameter)
+        {
+            if (SelectedGrupo == null) return;
+
+            if (string.IsNullOrWhiteSpace(NombreGrupo))
+            {
+                MessageBox.Show("El nombre del grupo es obligatorio", "Validacion", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            try
+            {
+                SelectedGrupo.Nombre = NombreGrupo;
+                _dbBroker.UpdateGrupo(SelectedGrupo);
+
+                LoadData();
+                MessageBox.Show("Grupo modificado correctamente", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al modificar grupo: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void EliminarGrupo(object? parameter)
+        {
+            if (SelectedGrupo == null) return;
+
+            var result = MessageBox.Show(
+                $"Esta seguro de eliminar el grupo '{SelectedGrupo.Nombre}'?\nLos alumnos seran liberados.",
+                "Confirmar eliminacion",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    if (_dbBroker.DeleteGrupo(SelectedGrupo.IdGrupo))
+                    {
+                        Grupos.Remove(SelectedGrupo);
+                        AlumnosSeleccionados.Clear();
+                        NombreGrupo = string.Empty;
+                        LoadData();
+
+                        MessageBox.Show("Grupo eliminado correctamente", "Exito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al eliminar grupo: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+    }
+}

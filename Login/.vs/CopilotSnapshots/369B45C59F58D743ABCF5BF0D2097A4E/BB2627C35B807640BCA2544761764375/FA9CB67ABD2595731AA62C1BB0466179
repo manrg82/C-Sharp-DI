@@ -1,0 +1,297 @@
+﻿# Patrón DbBroker - Documentación
+
+## ¿Qué es DbBroker?
+
+**DbBroker** es un patrón de diseño que actúa como **intermediario único** entre la aplicación y la base de datos. Centraliza TODAS las operaciones de acceso a datos en una única clase.
+
+---
+
+## Arquitectura Actual con DbBroker
+
+```
+┌─────────────────────────────────┐
+│  VIEW (XAML)                    │
+│  AlumnadoView, GruposView       │
+└──────────────┬──────────────────┘
+               │ Data Binding
+               ↓
+┌─────────────────────────────────┐
+│  VIEW MODEL                     │
+│  AlumnadoViewModel              │
+│  GruposViewModel                │
+└──────────────┬──────────────────┘
+               │
+               │  Llama a DbBroker.Instance
+               ↓
+┌─────────────────────────────────┐
+│  DbBroker (Singleton)           │  ⭐ ÚNICA CLASE DE ACCESO A BD
+│  - GetAllAlumnos()              │
+│  - InsertAlumno()               │
+│  - UpdateAlumno()               │
+│  - DeleteAlumno()               │
+│  - GetAllGrupos()               │
+│  - InsertGrupo()                │
+│  - UpdateGrupo()                │
+│  - DeleteGrupo()                │
+└──────────────┬──────────────────┘
+               │
+               ↓
+         ┌─────────┐
+         │  MySQL  │
+         └─────────┘
+```
+
+---
+
+## Comparación: Repository vs DbBroker
+
+### Antes (Repository Pattern):
+
+```csharp
+// Múltiples clases
+AlumnadoRepository.cs
+GrupoRepository.cs
+DatabaseConnection.cs
+
+// Uso en ViewModels
+private readonly AlumnadoRepository _alumnadoRepo;
+private readonly GrupoRepository _grupoRepo;
+
+_alumnadoRepo = new AlumnadoRepository();
+_grupoRepo = new GrupoRepository();
+```
+
+### Ahora (DbBroker Pattern):
+
+```csharp
+// UNA SOLA clase
+DbBroker.cs
+
+// Uso en ViewModels
+private readonly DbBroker _dbBroker;
+
+_dbBroker = DbBroker.Instance; // Singleton
+```
+
+---
+
+## Ventajas del DbBroker
+
+### 1. **Centralización Total**
+- ✅ TODO el código SQL en UN solo archivo
+- ✅ Fácil encontrar y modificar queries
+- ✅ No hay dispersión de lógica de BD
+
+### 2. **Singleton Pattern**
+```csharp
+public static DbBroker Instance
+{
+    get
+    {
+        if (_instance == null)
+        {
+            _instance = new DbBroker();
+        }
+        return _instance;
+    }
+}
+```
+- ✅ Una sola instancia en toda la aplicación
+- ✅ Ahorro de recursos
+- ✅ Conexión centralizada
+
+### 3. **Menos Archivos**
+```
+ANTES:
+DAL/
+├── DatabaseConnection.cs
+├── AlumnadoRepository.cs
+└── GrupoRepository.cs
+
+AHORA:
+DAL/
+└── DbBroker.cs  ⭐
+```
+
+### 4. **Código más Limpio en ViewModels**
+```csharp
+// ANTES
+private readonly AlumnadoRepository _alumnadoRepo;
+private readonly GrupoRepository _grupoRepo;
+
+public AlumnadoViewModel()
+{
+    _alumnadoRepo = new AlumnadoRepository();
+    _grupoRepo = new GrupoRepository();
+}
+
+// AHORA
+private readonly DbBroker _dbBroker;
+
+public AlumnadoViewModel()
+{
+    _dbBroker = DbBroker.Instance; // Más simple
+}
+```
+
+### 5. **Reutilización Fácil**
+```csharp
+// AlumnadoViewModel usa DbBroker
+var alumnos = _dbBroker.GetAllAlumnos();
+
+// GruposViewModel usa el MISMO DbBroker
+var sinAsignar = _dbBroker.GetAlumnosSinAsignar();
+var grupos = _dbBroker.GetAllGrupos();
+```
+
+---
+
+## Estructura de DbBroker.cs
+
+```csharp
+public class DbBroker
+{
+    // 1. SINGLETON
+    private static DbBroker? _instance;
+    public static DbBroker Instance { get; }
+    
+    // 2. CONEXIÓN PRIVADA
+    private readonly string _connectionString;
+    private MySqlConnection GetConnection() { ... }
+    
+    // 3. OPERACIONES DE ALUMNADO
+    public List<Alumnado> GetAllAlumnos() { ... }
+    public List<Alumnado> GetAlumnosSinAsignar() { ... }
+    public List<Alumnado> GetAlumnosByGrupo(int id) { ... }
+    public bool InsertAlumno(Alumnado alumno) { ... }
+    public bool UpdateAlumno(Alumnado alumno) { ... }
+    public bool DeleteAlumno(int id) { ... }
+    
+    // 4. OPERACIONES DE GRUPO
+    public List<Grupo> GetAllGrupos() { ... }
+    public int InsertGrupo(Grupo grupo) { ... }
+    public bool UpdateGrupo(Grupo grupo) { ... }
+    public bool DeleteGrupo(int id) { ... }
+    
+    // 5. UTILIDADES
+    public bool TestConnection() { ... }
+}
+```
+
+---
+
+## ¿Cuándo Usar DbBroker vs Repository?
+
+### Usa **DbBroker** cuando:
+- ✅ Proyecto pequeño/mediano
+- ✅ Una sola base de datos
+- ✅ Quieres simplicidad
+- ✅ Todas las operaciones están relacionadas
+- ✅ No necesitas cambiar de BD frecuentemente
+
+### Usa **Repository** cuando:
+- ✅ Proyecto grande/enterprise
+- ✅ Múltiples fuentes de datos
+- ✅ Necesitas testing exhaustivo (mocking)
+- ✅ Diferentes equipos trabajan en diferentes entidades
+- ✅ Posibilidad de cambiar de BD
+
+---
+
+## Ejemplo de Uso en ViewModel
+
+```csharp
+public class AlumnadoViewModel : INotifyPropertyChanged
+{
+    private readonly DbBroker _dbBroker;
+    
+    public AlumnadoViewModel()
+    {
+        // Obtener instancia única
+        _dbBroker = DbBroker.Instance;
+        LoadData();
+    }
+    
+    private void LoadData()
+    {
+        // Llamar a DbBroker
+        var alumnos = _dbBroker.GetAllAlumnos();
+        Alumnos.Clear();
+        foreach (var alumno in alumnos)
+        {
+            Alumnos.Add(alumno);
+        }
+    }
+    
+    private void Add(object? parameter)
+    {
+        var nuevo = new Alumnado { Nombre = Nombre, ... };
+        
+        // Insertar usando DbBroker
+        if (_dbBroker.InsertAlumno(nuevo))
+        {
+            LoadData();
+        }
+    }
+    
+    private void Delete(object? parameter)
+    {
+        // Eliminar usando DbBroker
+        if (_dbBroker.DeleteAlumno(SelectedAlumno.IdAlumnado))
+        {
+            Alumnos.Remove(SelectedAlumno);
+        }
+    }
+}
+```
+
+---
+
+## Cambiar Cadena de Conexión
+
+Solo necesitas modificar **UN lugar**:
+
+```csharp
+// DbBroker.cs - línea 13
+private DbBroker()
+{
+    // ⭐ ÚNICO LUGAR para cambiar conexión
+    _connectionString = "Server=localhost;Database=minihito2;User=root;Password=;";
+}
+```
+
+---
+
+## Testing con DbBroker
+
+```csharp
+// Opción 1: Mock del Singleton (avanzado)
+var mockBroker = new Mock<DbBroker>();
+mockBroker.Setup(b => b.GetAllAlumnos()).Returns(listaFake);
+
+// Opción 2: Crear instancia de prueba con BD de test
+var testBroker = new DbBroker("Server=localhost;Database=test_db;...");
+```
+
+---
+
+## Resumen
+
+**DbBroker es como tener un "gerente único" que maneja TODAS las operaciones con la base de datos.**
+
+### Características Clave:
+1. ✅ **Singleton** - Una sola instancia
+2. ✅ **Centralizado** - Todo el SQL en un archivo
+3. ✅ **Simple** - Fácil de usar y mantener
+4. ✅ **Reutilizable** - Todos los ViewModels lo usan
+5. ✅ **Eficiente** - Conexión única
+
+### Para el Minihito 2:
+- ✅ Cumple con "separación en capas" (DAL)
+- ✅ Código modularizado en DbBroker
+- ✅ Fácil de entender y evaluar
+- ✅ Menos archivos = más orden
+
+---
+
+**DbBroker.Instance** = Tu puerta de entrada única a la base de datos 🚪🔑
