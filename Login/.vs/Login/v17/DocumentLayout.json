@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Login\\Persistencia\\DbBroker.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
               "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAswNkAAACnAgAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T11:53:15.817Z",
               "EditorCaption": ""
@@ -74,8 +74,7 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Resources\\Dictionary1.xaml",
               "RelativeToolTip": "Login\\Resources\\Dictionary1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-05T11:51:48.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:51:48.789Z"
             },
             {
               "$type": "Document",
@@ -86,8 +85,7 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml",
               "RelativeToolTip": "Login\\View\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-03T13:08:30.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T13:08:30.211Z"
             },
             {
               "$type": "Document",
@@ -99,8 +97,7 @@
               "RelativeToolTip": "Login\\View\\AlumnadoView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:45:53.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:45:53.571Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\AlumnadoView.xaml",
               "RelativeToolTip": "Login\\View\\AlumnadoView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-05T11:45:52.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:45:52.11Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\View\\GruposView.xaml",
               "RelativeToolTip": "Login\\View\\GruposView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-05T11:45:54.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:45:54.355Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "Login\\ViewModel\\GruposViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwCcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:45:51.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:45:51.925Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "Login\\ViewModel\\AlumnadoViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwPcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T11:45:51.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T11:45:51.609Z"
             }
           ]
         },
