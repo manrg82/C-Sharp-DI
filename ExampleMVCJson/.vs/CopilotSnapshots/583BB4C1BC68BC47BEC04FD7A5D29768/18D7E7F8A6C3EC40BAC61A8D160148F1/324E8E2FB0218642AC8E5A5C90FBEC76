@@ -15,13 +15,13 @@ namespace ExampleMVCJson
 {
     public partial class MainWindow : Window
     {
-        private readonly PersonaController _controller;
-        private Persona? _selectedPersona;
+        private readonly PersonController _controller;
+        private Person? _selectedPerson;
 
         public MainWindow()
         {
             InitializeComponent();
-            _controller = new PersonaController();
+            _controller = new PersonController();
             LoadData();
         }
 
@@ -33,7 +33,7 @@ namespace ExampleMVCJson
 
         private void BtnNew_Click(object sender, RoutedEventArgs e)
         {
-            _selectedPersona = null;
+            _selectedPerson = null;
             txtName.Text = string.Empty;
             txtAge.Text = string.Empty;
             txtName.Focus();
@@ -41,10 +41,10 @@ namespace ExampleMVCJson
 
         private void BtnDel_Click(object sender, RoutedEventArgs e)
         {
-            if (_selectedPersona != null)
+            if (_selectedPerson != null)
             {
-                _controller.Delete(_selectedPersona.Id);
-                _selectedPersona = null;
+                _controller.Delete(_selectedPerson.Id);
+                _selectedPerson = null;
                 txtName.Text = string.Empty;
                 txtAge.Text = string.Empty;
                 LoadData();
@@ -69,18 +69,18 @@ namespace ExampleMVCJson
                 return;
             }
 
-            if (_selectedPersona == null)
+            if (_selectedPerson == null)
             {
                 _controller.Add(txtName.Text, age);
             }
             else
             {                
-                _selectedPersona.Name = txtName.Text;
-                _selectedPersona.Age = age;
-                _controller.Update(_selectedPersona);
+                _selectedPerson.Name = txtName.Text;
+                _selectedPerson.Age = age;
+                _controller.Update(_selectedPerson);
             }
 
-            _selectedPersona = null;
+            _selectedPerson = null;
             txtName.Text = string.Empty;
             txtAge.Text = string.Empty;
             LoadData();
@@ -88,11 +88,11 @@ namespace ExampleMVCJson
 
         private void DgvPeople_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (dataGridUsers.SelectedItem is Persona persona)
+            if (dataGridUsers.SelectedItem is Person person)
             {
-                _selectedPersona = persona;
-                txtName.Text = persona.Name;
-                txtAge.Text = persona.Age.ToString();
+                _selectedPerson = person;
+                txtName.Text = person.Name;
+                txtAge.Text = person.Age.ToString();
             }
         }
     }

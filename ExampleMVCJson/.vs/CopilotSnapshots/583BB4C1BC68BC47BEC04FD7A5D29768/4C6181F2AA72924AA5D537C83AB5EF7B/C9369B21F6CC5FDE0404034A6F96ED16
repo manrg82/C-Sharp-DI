@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="97*" />
+            <ColumnDefinition Width="63*" />
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0" Orientation="Vertical">
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
@@ -18,18 +18,20 @@
             </StackPanel>
             <DataGrid x:Name="dataGridUsers" AutoGenerateColumns="False" Height="350" Margin="20" SelectionMode="Single" SelectionChanged="DgvPeople_SelectionChanged">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
-                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
-                    <DataGridTextColumn Header="Age" Binding="{Binding Age}" Width="*"/>
+                    <DataGridTextColumn Header="ID" Binding="{Binding id}" Width="50"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding name}" Width="*"/>
+                    <DataGridTextColumn Header="Age" Binding="{Binding age}" Width="*"/>
                 </DataGrid.Columns>
             </DataGrid>
         </StackPanel>
-        <StackPanel Grid.Column="1" Orientation="Vertical" Margin="20">
-            <TextBlock Text="Name:" Margin="0,10,0,5"/>
-            <TextBox x:Name="txtName" Margin="0,0,0,10"/>
-            <TextBlock Text="Age:" Margin="0,10,0,5"/>
-            <TextBox x:Name="txtAge" Margin="0,0,0,10"/>
-            <Button x:Name="btnSave" Content="SAVE" Margin="0,20,0,0" Click="BtnSave_Click"/>
+        <StackPanel Grid.Column="1" Orientation="Vertical" Margin="10">
+            <TextBlock Text="ID:" Margin="10"/>
+            <TextBox x:Name="txtID" Margin="10" IsReadOnly="True"/>
+            <TextBlock Text="Name:" Margin="10"/>
+            <TextBox x:Name="txtName" Margin="10"/>
+            <TextBlock Text="Age:" Margin="10"/>
+            <TextBox x:Name="txtAge" Margin="10"/>
+            <Button x:Name="btnSave" Content="SAVE" Margin="20" Click="BtnSave_Click"></Button>
         </StackPanel>
     </Grid>
 </Window>

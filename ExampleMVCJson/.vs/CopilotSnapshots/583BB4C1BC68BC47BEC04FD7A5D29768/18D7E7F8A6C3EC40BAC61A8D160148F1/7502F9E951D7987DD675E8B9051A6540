@@ -1,0 +1,83 @@
+﻿using System.IO;
+using System.Text.Json;
+using ExampleMVCJson.model;
+
+namespace ExampleMVCJson.controller
+{
+    public class PersonController
+    {
+        private readonly string _filePath;
+        private List<Person> _people;
+        private int _nextId;
+
+        public PersonController(string filePath = "people.json")
+        {
+            _filePath = filePath;
+            _people = LoadFromFile();
+            _nextId = _people.Count > 0 ? _people.Max(p => p.Id) + 1 : 1;
+        }
+
+        public List<Person> GetAll()
+        {
+            return _people;
+        }
+
+        public void Add(string name, int age)
+        {
+            var person = new Person
+            {
+                Id = _nextId++,
+                Name = name,
+                Age = age
+            };
+            _people.Add(person);
+            SaveToFile();
+        }
+
+        public void Delete(int id)
+        {
+            var person = _people.FirstOrDefault(p => p.Id == id);
+            if (person != null)
+            {
+                _people.Remove(person);
+                SaveToFile();
+            }
+        }
+
+        public void Update(Person person)
+        {
+            var existing = _people.FirstOrDefault(p => p.Id == person.Id);
+            if (existing != null)
+            {
+                existing.Name = person.Name;
+                existing.Age = person.Age;
+                SaveToFile();
+            }
+        }
+
+        private List<Person> LoadFromFile()
+        {
+            if (!File.Exists(_filePath))
+            {
+                return new List<Person>();
+            }
+
+            try
+            {
+                string json = File.ReadAllText(_filePath);
+                return JsonSerializer.Deserialize<List<Person>>(json) ?? new List<Person>();
+            }
+            catch
+            {
+                return new List<Person>();
+            }
+        }
+
+        private void SaveToFile()
+        {
+            var options = new JsonSerializerOptions { WriteIndented = true };
+            string json = JsonSerializer.Serialize(_people, options);
+            File.WriteAllText(_filePath, json);
+        }
+    }
+}

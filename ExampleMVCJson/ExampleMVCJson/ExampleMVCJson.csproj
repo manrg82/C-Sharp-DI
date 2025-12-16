@@ -8,9 +8,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="model\" />
-    <Folder Include="controller\" />
-  </ItemGroup>
-
 </Project>
