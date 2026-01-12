@@ -9,9 +9,6 @@
         WindowStartupLocation="CenterScreen"
         Background="#F5F5F5">
 
-    <Window.DataContext>
-        <vm:GruposViewModel/>
-    </Window.DataContext>
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
@@ -209,4 +206,4 @@
             </Border>
         </Grid>
     </Grid>
-</W
+</Window>

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using WPF_LoginForm.Model;
+using MySql.Data.MySqlClient;
 
 namespace WPF_LoginForm.DAL
 {
@@ -20,7 +21,7 @@ namespace WPF_LoginForm.DAL
             {
                 if (_instance == null)
                 {
-                    000                                                                                                                                 
+                                                                                                                                                     
                     _instance = new DbBroker();
                 }
                 return _instance;
