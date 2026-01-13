@@ -1,0 +1,8 @@
+﻿Proyecto MVC que consume https://api.restful-api.dev/objects
+
+Rutas:
+- /Objects -> lista
+- /Objects/Details/{id} -> detalle
+- /Objects/Create -> crear (enviar JSON en textarea)
+
+Se añadió proyecto web MVC junto al proyecto WPF para cumplir requisito MVC.

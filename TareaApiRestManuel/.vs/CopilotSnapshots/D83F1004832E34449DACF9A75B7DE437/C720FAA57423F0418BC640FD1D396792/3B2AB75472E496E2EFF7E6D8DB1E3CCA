@@ -1,0 +1,18 @@
+﻿@model object[]
+
+<h2>Objects</h2>
+@if (Model == null)
+{
+    <p>No objects found.</p>
+}
+else
+{
+    <ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.ToString()</li>
+    }
+    </ul>
+}
+
+<p><a href="/Objects/Create">Add object</a></p>

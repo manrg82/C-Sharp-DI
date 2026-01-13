@@ -1,0 +1,13 @@
+﻿@model object
+
+<h2>Object details</h2>
+@if (Model == null)
+{
+    <p>Not found.</p>
+}
+else
+{
+    <pre>@Model.ToString()</pre>
+}
+
+<p><a href="/Objects">Back to list</a></p>

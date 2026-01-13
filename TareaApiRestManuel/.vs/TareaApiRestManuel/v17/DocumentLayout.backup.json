@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\TareaApiRestManuelWeb.csproj||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\TareaApiRestManuelWeb.csproj||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Controllers\\ObjectsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Controllers\\ObjectsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Home\\Index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Views\\Home\\Index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Views\\Objects\\Index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Details.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Views\\Objects\\Details.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Create.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Views\\Objects\\Create.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Shared\\_Layout.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\Views\\Shared\\_Layout.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TareaApiRestManuelWeb\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 320,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +70,155 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-13T08:50:51.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Create.cshtml",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Views\\Objects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Create.cshtml",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Views\\Objects\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-13T08:50:32.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Details.cshtml",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Views\\Objects\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Details.cshtml",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Views\\Objects\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-13T08:50:28.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Index.cshtml",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Views\\Objects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Objects\\Index.cshtml",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Views\\Objects\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-13T08:50:25.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAABBwAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-13T08:50:20.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Controllers\\ObjectsController.cs",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Controllers\\ObjectsController.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Controllers\\ObjectsController.cs",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Controllers\\ObjectsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAABRwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T08:50:17.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAABRwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T08:50:09.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Program.cs",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\Program.cs",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIBJwB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T08:50:06.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TareaApiRestManuelWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\TareaApiRestManuelWeb.csproj",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\TareaApiRestManuelWeb.csproj",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\TareaApiRestManuelWeb.csproj",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\TareaApiRestManuelWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-13T08:50:01.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TareaApiRestManuel\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml",
+              "RelativeToolTip": "TareaApiRestManuel\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-13T07:53:57.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\README.md",
+              "RelativeDocumentMoniker": "TareaApiRestManuelWeb\\README.md",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuelWeb\\README.md",
+              "RelativeToolTip": "TareaApiRestManuelWeb\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-01-13T08:50:58.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TareaApiRestManuel\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml.cs",
               "RelativeToolTip": "TareaApiRestManuel\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAEBVwGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T07:53:55.659Z",
               "EditorCaption": ""

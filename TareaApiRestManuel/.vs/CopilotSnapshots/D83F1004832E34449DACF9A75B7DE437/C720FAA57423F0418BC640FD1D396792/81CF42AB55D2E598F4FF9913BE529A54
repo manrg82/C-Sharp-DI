@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>API Objects Demo</h2>
+<p><a class="btn btn-primary" href="/Objects">View objects</a></p>

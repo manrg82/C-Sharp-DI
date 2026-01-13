@@ -1,0 +1,58 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Json;
+
+namespace TareaApiRestManuelWeb.Controllers
+{
+    public class ObjectsController : Controller
+    {
+        private readonly HttpClient _httpClient;
+        private const string BaseUrl = "https://api.restful-api.dev/objects";
+
+        public ObjectsController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClient = httpClientFactory.CreateClient();
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var objects = await _httpClient.GetFromJsonAsync<object[]>(BaseUrl);
+            // return simple XML string instead of cshtml view
+            var sb = new System.Text.StringBuilder();
+            sb.AppendLine("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+            sb.AppendLine("<objects>");
+            if (objects != null)
+            {
+                foreach (var obj in objects)
+                {
+                    var xml = System.Text.Encodings.Web.JavaScriptEncoder.Default.Encode(System.Text.Json.JsonSerializer.Serialize(obj));
+                    sb.AppendLine($"  <object>{xml}</object>");
+                }
+            }
+            sb.AppendLine("</objects>");
+            return Content(sb.ToString(), "application/xml");
+        }
+
+        public async Task<IActionResult> Details(string id)
+        {
+            if (string.IsNullOrEmpty(id)) return BadRequest();
+            var obj = await _httpClient.GetFromJsonAsync<object>($"{BaseUrl}/{id}");
+            if (obj == null) return NotFound();
+            var xml = System.Text.Encodings.Web.JavaScriptEncoder.Default.Encode(System.Text.Json.JsonSerializer.Serialize(obj, new System.Text.Json.JsonSerializerOptions { WriteIndented = true }));
+            var content = $"<?xml version=\"1.0\" encoding=\"utf-8\"?><object>{xml}</object>";
+            return Content(content, "application/xml");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] object model)
+        {
+            // accept raw JSON and forward
+            if (model == null) return BadRequest();
+            var json = System.Text.Json.JsonSerializer.Serialize(model);
+            using var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync(BaseUrl, content);
+            if (response.IsSuccessStatusCode) return Ok();
+            var resp = await response.Content.ReadAsStringAsync();
+            return StatusCode((int)response.StatusCode, resp);
+        }
+    }
+}

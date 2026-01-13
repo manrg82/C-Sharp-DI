@@ -1,0 +1,55 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Json;
+
+namespace TareaApiRestManuelWeb.Controllers
+{
+    public class ObjectsController : Controller
+    {
+        private readonly HttpClient _httpClient;
+        private const string BaseUrl = "https://api.restful-api.dev/objects";
+
+        public ObjectsController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClient = httpClientFactory.CreateClient();
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var objects = await _httpClient.GetFromJsonAsync<object[]>(BaseUrl);
+            return View(objects);
+        }
+
+        public async Task<IActionResult> Details(string id)
+        {
+            if (string.IsNullOrEmpty(id)) return BadRequest();
+            var obj = await _httpClient.GetFromJsonAsync<object>($"{BaseUrl}/{id}");
+            if (obj == null) return NotFound();
+            return View(obj);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromForm] string model)
+        {
+            // Expecting raw JSON in textarea
+            if (string.IsNullOrWhiteSpace(model))
+            {
+                ModelState.AddModelError(string.Empty, "Model is empty");
+                return View();
+            }
+
+            using var content = new StringContent(model, System.Text.Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync(BaseUrl, content);
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError(string.Empty, "Error creating object");
+            return View(model);
+        }
+    }
+}

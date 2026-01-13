@@ -1,0 +1,45 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Json;
+
+namespace TareaApiRestManuelWeb.Controllers
+{
+    public class ObjectsController : Controller
+    {
+        private readonly HttpClient _httpClient;
+        private const string BaseUrl = "https://api.restful-api.dev/objects";
+
+        public ObjectsController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClient = httpClientFactory.CreateClient();
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var objects = await _httpClient.GetFromJsonAsync<object[]>(BaseUrl);
+            return View(objects);
+        }
+
+        public async Task<IActionResult> Details(string id)
+        {
+            var obj = await _httpClient.GetFromJsonAsync<object>($"{BaseUrl}/{id}");
+            return View(obj);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromForm] object model)
+        {
+            var response = await _httpClient.PostAsJsonAsync(BaseUrl, model);
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError(string.Empty, "Error creating object");
+            return View(model);
+        }
+    }
+}

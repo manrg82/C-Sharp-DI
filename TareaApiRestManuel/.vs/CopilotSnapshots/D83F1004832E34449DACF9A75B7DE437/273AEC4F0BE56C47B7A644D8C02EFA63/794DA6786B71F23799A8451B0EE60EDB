@@ -1,0 +1,6 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>API Objects Demo</h2>
+<p><a href="/Objects">View objects</a></p>
