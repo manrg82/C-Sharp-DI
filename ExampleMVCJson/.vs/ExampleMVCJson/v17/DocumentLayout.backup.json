@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\examplemvcjson\\examplemvcjson\\controller\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|solutionrelative:examplemvcjson\\controller\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\examplemvcjson\\examplemvcjson\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|solutionrelative:examplemvcjson\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\examplemvcjson\\examplemvcjson\\model\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|solutionrelative:examplemvcjson\\model\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\examplemvcjson\\examplemvcjson\\controller\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32E91169-3DDC-4228-B4B2-A647ED413776}|ExampleMVCJson\\ExampleMVCJson.csproj|solutionrelative:examplemvcjson\\controller\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\model\\Persona.cs",
               "RelativeDocumentMoniker": "ExampleMVCJson\\model\\Persona.cs",
@@ -55,8 +55,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T08:28:38.831Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -68,33 +67,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ExampleMVCJson\\view\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "ExampleMVCJson\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAWwA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T08:26:22.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\controller\\PersonaController.cs",
               "RelativeDocumentMoniker": "ExampleMVCJson\\controller\\PersonaController.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\controller\\PersonaController.cs",
               "RelativeToolTip": "ExampleMVCJson\\controller\\PersonaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwv1MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T08:29:19.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ExampleMVCJson\\view\\MainWindow.xaml",
@@ -106,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\App.xaml.cs",
               "RelativeDocumentMoniker": "ExampleMVCJson\\App.xaml.cs",
@@ -118,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ExampleMVCJson.csproj",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\ExampleMVCJson.csproj",
               "RelativeDocumentMoniker": "ExampleMVCJson\\ExampleMVCJson.csproj",
@@ -130,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\App.xaml",
               "RelativeDocumentMoniker": "ExampleMVCJson\\App.xaml",
@@ -151,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ExampleMVCJson\\ExampleMVCJson\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ExampleMVCJson\\view\\MainWindow.xaml",

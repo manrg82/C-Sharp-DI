@@ -71,9 +71,15 @@
               "Title": "DbBroker.cs",
               "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
               "RelativeDocumentMoniker": "Login\\Persistencia\\DbBroker.cs",
+<<<<<<< Updated upstream
               "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
               "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+=======
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs*",
+              "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T10:15:29.058Z",
               "EditorCaption": ""
