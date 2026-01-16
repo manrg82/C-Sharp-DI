@@ -8,7 +8,7 @@ namespace TareaApiRestManuel
     public partial class MainWindow : Window
     {
         private readonly HttpClient _httpClient;
-        private const string BaseUrl = "https://api.restful-api.dev/objects";
+        private const string BaseUrl = "https://meowfacts.herokuapp.com/";
 
         public MainWindow()
         {
