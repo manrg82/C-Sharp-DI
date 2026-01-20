@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8601719A-267C-4B74-A2B2-A1B18FFC8AF2}|ejemplomasterslave\\ejemplomasterslave.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\ejemplomasterslave\\ejemplomasterslave\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8601719A-267C-4B74-A2B2-A1B18FFC8AF2}|ejemplomasterslave\\ejemplomasterslave.csproj|solutionrelative:ejemplomasterslave\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8601719A-267C-4B74-A2B2-A1B18FFC8AF2}|ejemplomasterslave\\ejemplomasterslave.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\ejemplomasterslave\\ejemplomasterslave\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8601719A-267C-4B74-A2B2-A1B18FFC8AF2}|ejemplomasterslave\\ejemplomasterslave.csproj|solutionrelative:ejemplomasterslave\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8601719A-267C-4B74-A2B2-A1B18FFC8AF2}|ejemplomasterslave\\ejemplomasterslave.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\ejemplomasterslave\\ejemplomasterslave\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8601719A-267C-4B74-A2B2-A1B18FFC8AF2}|ejemplomasterslave\\ejemplomasterslave.csproj|solutionrelative:ejemplomasterslave\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 544,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 283,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\ejemplomasterslave\\Person.cs",
+              "RelativeDocumentMoniker": "ejemplomasterslave\\Person.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\ejemplomasterslave\\Person.cs",
+              "RelativeToolTip": "ejemplomasterslave\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:59:16.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\ejemplomasterslave\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ejemplomasterslave\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\ejemplomasterslave\\MainWindow.xaml",
+              "RelativeToolTip": "ejemplomasterslave\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T08:31:27.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\ejemplomasterslave\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ejemplomasterslave\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\ejemplomasterslave\\ejemplomasterslave\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ejemplomasterslave\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAArwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:31:27.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+
+<Page x:Class="StackNavigationUsability.view.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Main page">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+            <TextBlock Text="Main view" FontSize="26" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,20"/>
+            <TextBlock Text="This is the main screen of the application." FontSize="14" TextAlignment="Center" Margin="0,0,0,30"/>
+            <Button Content="Go to details" Height="45" Click="GoToDetails_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
