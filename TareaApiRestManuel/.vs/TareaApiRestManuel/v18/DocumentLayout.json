@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\models\\animalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "TareaApiRestManuel\\Models\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:18:37.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T16:18:37.75Z"
             },
             {
               "$type": "Document",
@@ -59,25 +58,24 @@
               "RelativeToolTip": "TareaApiRestManuel\\Models\\AnimalModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:18:34.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T16:18:34.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TareaApiRestManuel\\MainWindow.xaml.cs",
               "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml.cs",
               "RelativeToolTip": "TareaApiRestManuel\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T16:15:40.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TareaApiRestManuel\\MainWindow.xaml",

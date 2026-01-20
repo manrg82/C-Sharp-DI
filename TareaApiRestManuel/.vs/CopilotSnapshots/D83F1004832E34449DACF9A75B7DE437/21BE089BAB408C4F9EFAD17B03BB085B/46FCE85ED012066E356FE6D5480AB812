@@ -19,6 +19,8 @@
 
         <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0,0,0,8">
             <Button Name="RefreshButton" Width="120" Margin="0,0,8,0" Click="RefreshButton_Click">Get All Species</Button>
+            <TextBox Name="IdTextBox" Width="200" Margin="0,0,8,0" ToolTip="Enter species ID" />
+            <Button Name="GetByIdButton" Width="120" Click="GetByIdButton_Click">Get by ID</Button>
         </StackPanel>
 
         <GroupBox Header="Animals" Grid.Row="1" Grid.Column="0" Margin="0,0,8,0">

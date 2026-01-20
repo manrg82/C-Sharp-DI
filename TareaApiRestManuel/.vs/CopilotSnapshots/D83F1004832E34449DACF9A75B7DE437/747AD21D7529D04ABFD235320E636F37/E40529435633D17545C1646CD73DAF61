@@ -18,10 +18,12 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0,0,0,8">
-            <Button Name="RefreshButton" Width="120" Margin="0,0,8,0" Click="RefreshButton_Click">Get All Species</Button>
+            <Button Name="RefreshButton" Width="100" Margin="0,0,8,0" Click="RefreshButton_Click">Refresh</Button>
+            <TextBox Name="IdTextBox" Width="200" Margin="0,0,8,0" ToolTip="Enter ID for single object" />
+            <Button Name="GetByIdButton" Width="120" Click="GetByIdButton_Click">Get by ID</Button>
         </StackPanel>
 
-        <GroupBox Header="Animals" Grid.Row="1" Grid.Column="0" Margin="0,0,8,0">
+        <GroupBox Header="Objects" Grid.Row="1" Grid.Column="0" Margin="0,0,8,0">
             <DockPanel>
                 <ListBox Name="ObjectsListBox" DisplayMemberPath="_display" SelectionChanged="ObjectsListBox_SelectionChanged" />
             </DockPanel>
@@ -33,7 +35,7 @@
             </Grid>
         </GroupBox>
 
-        <GroupBox Header="Create species (paste JSON)" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,8,0,0">
+        <GroupBox Header="Create object (paste JSON)" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,8,0,0">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

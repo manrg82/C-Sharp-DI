@@ -2,14 +2,13 @@
 using System.Net.Http.Json;
 using System.Text;
 using System.Windows;
-using TareaApiRestManuel.Models;
 
 namespace TareaApiRestManuel
 {
     public partial class MainWindow : Window
     {
         private readonly HttpClient _httpClient;
-        private const string AllSpeciesUrl = "https://aes.shenlu.me/api/v1/species";
+        private const string BaseUrl = "https://meowfacts.herokuapp.com/";
 
         public MainWindow()
         {
@@ -25,12 +24,16 @@ namespace TareaApiRestManuel
 
             try
             {
-                var animals = await _httpClient.GetFromJsonAsync<List<AnimalModel>>(AllSpeciesUrl);
-                if (animals != null)
+                var objects = await _httpClient.GetFromJsonAsync<object[]>(BaseUrl);
+                if (objects != null)
                 {
-                    foreach (var animal in animals)
+                    int i = 0;
+                    foreach (var obj in objects)
                     {
-                        ObjectsListBox.Items.Add(new { _display = animal.ToString(), _json = System.Text.Json.JsonSerializer.Serialize(animal, new System.Text.Json.JsonSerializerOptions { WriteIndented = true }), _obj = animal });
+                        // show a simple display string
+                        var display = obj?.ToString() ?? "null";
+                        ObjectsListBox.Items.Add(new { _display = display, _json = System.Text.Json.JsonSerializer.Serialize(obj), _index = i });
+                        i++;
                     }
                 }
             }
@@ -52,6 +55,26 @@ namespace TareaApiRestManuel
             }
         }
 
+        private async void GetByIdButton_Click(object sender, RoutedEventArgs e)
+        {
+            var id = IdTextBox.Text?.Trim();
+            if (string.IsNullOrEmpty(id))
+            {
+                MessageBox.Show("Please enter an ID.");
+                return;
+            }
+
+            try
+            {
+                var obj = await _httpClient.GetStringAsync($"{BaseUrl}/{id}");
+                DetailsTextBox.Text = obj;
+            }
+            catch (HttpRequestException hre)
+            {
+                MessageBox.Show($"Error fetching object: {hre.Message}");
+            }
+        }
+
         private async void CreateButton_Click(object sender, RoutedEventArgs e)
         {
             var json = CreateTextBox.Text?.Trim();
@@ -64,8 +87,7 @@ namespace TareaApiRestManuel
             try
             {
                 using var content = new StringContent(json, Encoding.UTF8, "application/json");
-                var url = "https://aes.shenlu.me/api/v1/species";
-                var response = await _httpClient.PostAsync(url, content);
+                var response = await _httpClient.PostAsync(BaseUrl, content);
                 if (response.IsSuccessStatusCode)
                 {
                     MessageBox.Show("Object created successfully.");

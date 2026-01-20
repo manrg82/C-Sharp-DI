@@ -9,6 +9,7 @@ namespace TareaApiRestManuel
     public partial class MainWindow : Window
     {
         private readonly HttpClient _httpClient;
+        private const string BaseUrl = "https://aes.shenlu.me/api/v1/random";
         private const string AllSpeciesUrl = "https://aes.shenlu.me/api/v1/species";
 
         public MainWindow()
@@ -49,6 +50,30 @@ namespace TareaApiRestManuel
             {
                 var json = jsonProp.GetValue(item) as string;
                 DetailsTextBox.Text = json;
+            }
+        }
+
+        private async void GetByIdButton_Click(object sender, RoutedEventArgs e)
+        {
+            var id = IdTextBox.Text?.Trim();
+            if (string.IsNullOrEmpty(id))
+            {
+                MessageBox.Show("Please enter an ID.");
+                return;
+            }
+
+            try
+            {
+                var url = $"https://aes.shenlu.me/api/v1/species/{id}";
+                var animal = await _httpClient.GetFromJsonAsync<AnimalModel>(url);
+                if (animal != null)
+                {
+                    DetailsTextBox.Text = System.Text.Json.JsonSerializer.Serialize(animal, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                }
+            }
+            catch (HttpRequestException hre)
+            {
+                MessageBox.Show($"Error fetching object: {hre.Message}");
             }
         }
 
