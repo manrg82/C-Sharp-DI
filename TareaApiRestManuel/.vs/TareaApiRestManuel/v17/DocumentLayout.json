@@ -1,32 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\models\\animalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\models\\animalmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|z:\\repositorios\\c-sharp-di\\tareaapirestmanuel\\tareaapirestmanuel\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A30D42E-5C9E-41B5-97EF-BD27AEE3793F}|TareaApiRestManuel\\TareaApiRestManuel.csproj|solutionrelative:tareaapirestmanuel\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\TareaApiRestManuel\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 320,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,57 +18,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 507,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\Models\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "TareaApiRestManuel\\Models\\ApiResponse.cs",
-              "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\Models\\ApiResponse.cs",
-              "RelativeToolTip": "TareaApiRestManuel\\Models\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:18:37.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnimalModel.cs",
-              "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\Models\\AnimalModel.cs",
-              "RelativeDocumentMoniker": "TareaApiRestManuel\\Models\\AnimalModel.cs",
-              "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\Models\\AnimalModel.cs",
-              "RelativeToolTip": "TareaApiRestManuel\\Models\\AnimalModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:18:34.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TareaApiRestManuel\\MainWindow.xaml.cs",
-              "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TareaApiRestManuel\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:15:40.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "TareaApiRestManuel\\MainWindow.xaml",
-              "ToolTip": "Z:\\Repositorios\\C-Sharp-DI\\TareaApiRestManuel\\TareaApiRestManuel\\MainWindow.xaml",
-              "RelativeToolTip": "TareaApiRestManuel\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-20T16:15:24.862Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

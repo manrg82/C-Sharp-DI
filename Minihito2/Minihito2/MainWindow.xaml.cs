@@ -39,7 +39,7 @@ namespace Minihito2
 
         }
 
-        private ObservableCollection<string> cmbEspecialidadContent {  get; set; }
+        private ObservableCollection<string> cmbEspecialidadContent { get; set; }
 
         public void clear()
         {
@@ -143,6 +143,19 @@ namespace Minihito2
             dgAlumnos.ItemsSource = filtradas;
         }
 
-    }
+        private void dgEmpresas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
+        }
+        private void txtBarraBusquedaEmp_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            IEnumerable<Empresa> filtradas;
+            Empresa empresa = new Empresa();
+            List<Empresa> listaEmpresas = empresa.getEmpresas();
+            filtradas = listaEmpresas.Where(e => e.getRazon().Contains(txtBarraBusquedaEmp.Text));
+            dgEmpresas.ItemsSource = filtradas;
+
+        }
+
+    }
 }

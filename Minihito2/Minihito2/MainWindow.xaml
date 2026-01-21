@@ -16,7 +16,7 @@
             <TabItem Header="INICIO"/>
             <TabItem Header="PARTICIPANTES">
                 <TabControl>
-                    <TabItem Header="ALUMNADO" Background="Brown" Width="150" Height="35">
+                    <TabItem Header="ALUMNADO" Background="LightGray" Width="150" Height="35">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
@@ -56,7 +56,7 @@
                             </StackPanel>
                         </Grid>
                     </TabItem>
-                    <TabItem Header="GRUPOS" Background="Brown" Width="150" Height="35">
+                    <TabItem Header="GRUPOS" Background="LightGray" Width="150" Height="35">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
@@ -92,8 +92,89 @@
                     </TabItem>
                 </TabControl>
             </TabItem>
-            <TabItem Header="EMPRESAS"/>
-            <TabItem Header="RETOS"/>
+            <TabItem Header="EMPRESAS">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtBarraBusquedaEmp" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="0" Width="240" Margin="20" TextChanged="txtBarraBusquedaEmp_TextChanged"/>
+                    <StackPanel Grid.Column="0" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="3">
+                        <DataGrid Name="dgEmpresas" AutoGenerateColumns="False" SelectionChanged="dgEmpresas_SelectionChanged">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Razon Social" Binding="{Binding RAZON_SOCIAL}"/>
+                                <DataGridTextColumn Header="Direccion" Binding="{Binding DIRECCION}"/>
+                                <DataGridTextColumn Header="Telefono" Binding="{Binding TELEFONO}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.RowSpan="4" Grid.Column="3" Width="300">
+                        <Label Content="Ciudad" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtCiudad"/>
+                        <Label Content="Correo" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtCorreo"/>
+                        <Label Content="Direccion" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtDir"/>
+                        <Label Content="Razon Social" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtRazon"/>
+                        <Label Content="Telfono" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtTel"/>
+
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2">
+                        <Button x:Name="btnAnadirE" Content="Añadir" Margin="10,0,0,0" Style="{DynamicResource StyleGeneralButton}" Click="btnAnadir_Click"/>
+                        <Button x:Name="btnModificarE" Content="Modificar" Margin="10,0,0,0" Style="{DynamicResource StyleGeneralButton}" Click="btnModificar_Click"/>
+                        <Button x:Name="btnBorrarE" Content="Borrar" Margin="10,0,10,0" Style="{DynamicResource StyleGeneralButton}" Click="btnBorrar_Click"/>
+                    </StackPanel>
+                    <Image Source="/res/logotipo-ies-maestredecalatrava-1.png" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Left" Width="200" Height="80"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="RETOS">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtBarraBusquedaRet" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="0" Width="240" Margin="20" TextChanged="txtBarraBusquedaEmp_TextChanged"/>
+                    <StackPanel Grid.Column="0" Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="3">
+                        <DataGrid Name="dgRetos" AutoGenerateColumns="False" SelectionChanged="dgEmpresas_SelectionChanged">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.RowSpan="4" Grid.Column="3" Width="300">
+                        <Label Content="Ciudad" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtNMReto"/>
+                        <Label Content="Activo" HorizontalAlignment="Left"/>
+                        <CheckBox x:Name="ckb_Activo"></CheckBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2">
+                        <Button x:Name="btnAnadirR" Content="Añadir" Margin="10,0,0,0" Style="{DynamicResource StyleGeneralButton}" Click="btnAnadir_Click"/>
+                        <Button x:Name="btnModificarR" Content="Modificar" Margin="10,0,0,0" Style="{DynamicResource StyleGeneralButton}" Click="btnModificar_Click"/>
+                        <Button x:Name="btnBorrarR" Content="Borrar" Margin="10,0,10,0" Style="{DynamicResource StyleGeneralButton}" Click="btnBorrar_Click"/>
+                    </StackPanel>
+                    <Image Source="/res/logotipo-ies-maestredecalatrava-1.png" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Left" Width="200" Height="80"/>
+                </Grid>
+            </TabItem>
             <TabItem Header="TALENT LAB"/>
             <TabItem Header="USUARIOS"/>
         </TabControl>

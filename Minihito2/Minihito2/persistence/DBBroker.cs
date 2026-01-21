@@ -7,7 +7,7 @@ namespace Minihito2.persistence
     {
         private static DBBroker _instancia;
         private static MySql.Data.MySqlClient.MySqlConnection conexion;
-        private const string cadenaConexion = "server=localhost;port=3306;database=aceptasreto;uid=root;pwd=lqsym";
+        private const string cadenaConexion = "server=localhost;port=3306;database=mydb;uid=root;pwd=root";
 
         private DBBroker()
         {

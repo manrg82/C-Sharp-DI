@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\MiniHito2Manuel\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\MiniHito2Manuel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1582ACCC-26FA-438A-9632-C64F67EC233B}|MiniHito2Manuel\\MiniHito2Manuel.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\minihito2manuel\\minihito2manuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1582ACCC-26FA-438A-9632-C64F67EC233B}|MiniHito2Manuel\\MiniHito2Manuel.csproj|solutionrelative:minihito2manuel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\MiniHito2Manuel\\MiniHito2Manuel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MiniHito2Manuel\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\MiniHito2Manuel\\MiniHito2Manuel\\MainWindow.xaml",
+              "RelativeToolTip": "MiniHito2Manuel\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T09:48:45.82Z",
+              "EditorCaption": ""
             }
           ]
         },

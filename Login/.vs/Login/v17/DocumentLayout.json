@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\persistencia\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\view\\gruposview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\gruposview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\viewmodel\\alumnadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\viewmodel\\alumnadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\view\\alumnadoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\alumnadoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\view\\gruposview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\gruposview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\viewmodel\\alumnadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\viewmodel\\alumnadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|c:\\users\\b15-05m\\documents\\github\\c-sharp-di\\login\\login\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1A2FBD7-E53D-4FC9-B93C-7A4463B7654B}|Login\\Login.csproj|solutionrelative:login\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 320,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,57 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\Helpers\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Login\\Helpers\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\Helpers\\RelayCommand.cs",
-              "RelativeToolTip": "Login\\Helpers\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T10:18:29.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DbBroker.cs",
               "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
               "RelativeDocumentMoniker": "Login\\Persistencia\\DbBroker.cs",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
               "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs",
               "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-=======
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs*",
-              "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
->>>>>>> Stashed changes
-=======
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs*",
-              "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
->>>>>>> Stashed changes
-=======
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs*",
-              "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
->>>>>>> Stashed changes
-=======
-              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\Login\\Login\\Persistencia\\DbBroker.cs*",
-              "RelativeToolTip": "Login\\Persistencia\\DbBroker.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T10:15:29.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AlumnadoView.xaml",
               "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\View\\AlumnadoView.xaml",
               "RelativeDocumentMoniker": "Login\\View\\AlumnadoView.xaml",
@@ -116,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GruposView.xaml",
               "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\View\\GruposView.xaml",
               "RelativeDocumentMoniker": "Login\\View\\GruposView.xaml",
@@ -128,19 +87,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml",
               "RelativeDocumentMoniker": "Login\\View\\LoginView.xaml",
               "ToolTip": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\View\\LoginView.xaml",
               "RelativeToolTip": "Login\\View\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-12T10:13:12.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:13:12.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AlumnadoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\b15-05m\\Documents\\GitHub\\C-Sharp-DI\\Login\\Login\\ViewModel\\AlumnadoViewModel.cs",
               "RelativeDocumentMoniker": "Login\\ViewModel\\AlumnadoViewModel.cs",
@@ -148,8 +106,7 @@
               "RelativeToolTip": "Login\\ViewModel\\AlumnadoViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T10:13:09.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:13:09.65Z"
             },
             {
               "$type": "Document",
@@ -173,8 +130,7 @@
               "RelativeToolTip": "Login\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T10:12:49.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:12:49.771Z"
             }
           ]
         },
