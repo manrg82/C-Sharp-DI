@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\stacknavigationwpf_mvc_5pages\\stacknavigationwpf_mvc_5pages\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\stacknavigationwpf_mvc_5pages\\stacknavigationwpf_mvc_5pages\\controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\stacknavigationwpf_mvc_5pages\\stacknavigationwpf_mvc_5pages\\views\\orderdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\orderdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\stacknavigationwpf_mvc_5pages\\stacknavigationwpf_mvc_5pages\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5083AEC-7CAD-AF1D-904A-9D736C171C83}|StackNavigationWPF.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\stacknavigationwpf_mvc_5pages\\stacknavigationwpf_mvc_5pages\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 544,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,18 +86,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "Views\\HomePage.xaml",
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Views\\HomePage.xaml",
               "RelativeToolTip": "Views\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T11:02:53.396Z"
+              "WhenOpened": "2026-01-18T11:02:53.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NavigationController.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Controllers\\NavigationController.cs",
               "RelativeDocumentMoniker": "Controllers\\NavigationController.cs",
@@ -110,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrdersPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Views\\OrdersPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\OrdersPage.xaml.cs",
@@ -122,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OrderDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Views\\OrderDetailPage.xaml",
               "RelativeDocumentMoniker": "Views\\OrderDetailPage.xaml",
@@ -133,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NavigationModel.cs",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Models\\NavigationModel.cs",
               "RelativeDocumentMoniker": "Models\\NavigationModel.cs",
@@ -145,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrdersPage.xaml",
               "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\Views\\OrdersPage.xaml",
               "RelativeDocumentMoniker": "Views\\OrdersPage.xaml",
@@ -185,7 +186,8 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\StackNavigationWPF_MVC_5pages\\StackNavigationWPF_MVC_5pages\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-18T11:02:59.809Z"
+              "WhenOpened": "2026-01-18T11:02:59.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
