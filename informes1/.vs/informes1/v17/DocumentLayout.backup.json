@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|informes1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\informes1\\informes1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\dataset2.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|solutionrelative:informes1\\dataset2.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8190B45-7BFB-4F29-8610-1E9BB0C5F159}|informes1\\informes1.csproj|c:\\users\\dam2\\documents\\c-sharp-di\\informes1\\informes1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "informes1",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\informes1.csproj",
+              "RelativeDocumentMoniker": "informes1\\informes1.csproj",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\informes1.csproj*",
+              "RelativeToolTip": "informes1\\informes1.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-30T11:36:47.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\App.config",
+              "RelativeDocumentMoniker": "informes1\\App.config",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\App.config",
+              "RelativeToolTip": "informes1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-30T11:28:26.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "informes1\\DataSet1.xsd",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\DataSet1.xsd",
+              "RelativeToolTip": "informes1\\DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-01-27T18:53:23.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataSet2.xsd",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\DataSet2.xsd",
+              "RelativeDocumentMoniker": "informes1\\DataSet2.xsd",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\DataSet2.xsd",
+              "RelativeToolTip": "informes1\\DataSet2.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-01-27T09:02:56.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "informes1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "informes1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwC8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:17:18.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "informes1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\App.xaml.cs",
+              "RelativeToolTip": "informes1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:17:19.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\App.xaml",
+              "RelativeDocumentMoniker": "informes1\\App.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\App.xaml",
+              "RelativeToolTip": "informes1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-26T20:17:19.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrystalReport1.rpt",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\CrystalReport1.rpt",
+              "RelativeDocumentMoniker": "informes1\\CrystalReport1.rpt",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\CrystalReport1.rpt",
+              "RelativeToolTip": "informes1\\CrystalReport1.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPJSURBVDhPfZVLbBtVFIb/eXvGz7h2/AiBqG1akSgNJKiGCseKFFSBxIJHJIQqVLUCsQhdISQEm8CCJULioS6o6AahpquKUiQQJDwbioOD0sQgW4UkTfwgTurYcezxzOXO2HViJ/BLR/fO0Tmfzpw75w6DZrGRSEQse72t/oakrJUUCnNaNBpV664d6fpvTYmhoaHus6dfOiXLkqXu2iNdJ2T5diY5HZ/57MqFC5t19/566tnnHltJ53JbpbLeakXDtsr6\u002Bp2i/uON\u002BNrlq9Pv0hS\u002Blrkjtr42JPAcJJFvMlHgGmaReAT9B9qCfs\u002B5Dz\u002B\u002B/E4wGDxQTzW1B9gqQsjdTX3PwGGX4fc6mf5jx15\u002B4633XqVOzoyh\u002Bl8gbVfN9Lumm1ALrdpps6Aj4LYODg6\u002BduXr2Jv1lP2BRiEGyEg29sa6Uc0jVU5D0zRsl1UTrlhEeN02huGYxuFSoM9KV4Faw2nCaEVEN08VJa2ML/LX8P7iB0gUE2A5FgLtp2FGj9lddfFvf/LV6zPJ4kryz9mUJizeU9UIV6usBizoRcTVOFLVNL7MXkOqmMJY5zkcVrpNkBG3W9yZsy\u002B6H\u002B1rf7qr897Tf1e6wtF4zk1IlfG1ydA4FXOVeWwyedgYKyZT3yKaj2KtkkPI8QgsjAWqpiOztjn16cWPJk2g98jAXzZJ\u002BOGQX0z3dDmPLq7z7Vd/ybDfxZaREGeQsf0BB2\u002BHSHhMLU0ivZFBPLeA7UoZYU8EGm1JEzA69bk60HtffrvQPq/YkT/R6xyxKRYpkSW4eXsRt8h1JJXfsaDNIz65gOJsAb50AKG2MHrb\u002B8CyLLK5QgNodnN8fFwfGxsuxGI/rwa9ihbuUTBw0Akh34/N2eNIr1WQUlPYzpTgK/kxeugUhoMn6YnTJreo6bOZn/meyCIHL\u002B1fd4CHVXZByIWgTY\u002BArNvhlzowOvACRvoeh8/jgSSJIC3XSBPQkPEKEv0cnFaWjhkLTvSAWxmC/M3zOPPgKzjZ/ySCvgBsigKGxqL5kPcCDVXpq6wVCIoqD9lqRaDdg4c7jiN8MEJHzksrl2llDHQa18LbCzT6kkypiC2LcDnt6OlUcOKojCcecsDlckChlcGAGaNo0P6rwtFLl7gHIs\u002B4Elmwc6s83DQ50mNB\u002BIiO4ft1\u002BB3GDAvmbcRTM1c6MVU6irvVuM96boI7HOrNLK3\u002Bc9HOCpLXCSIKRJU0tTJ7Y0EvF/e/S7cqVeTW7/xUf9yZXyrm/Plf\u002BUAAwobEm35XuUpKpQqZmJjA8vKSGbSfVPVWtfZLAP4FwMC4o1S9MakAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-01-26T20:17:19.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "informes1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\C-Sharp-DI\\informes1\\informes1\\MainWindow.xaml",
+              "RelativeToolTip": "informes1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-26T20:17:19.357Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 283,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
