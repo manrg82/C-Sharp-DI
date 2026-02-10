@@ -6,17 +6,37 @@ using TareaApiRestManuel.Models;
 
 namespace TareaApiRestManuel
 {
+    /// <summary>
+    /// 
+    /// 
+    /// </summary>
+    /// <seealso cref="System.Windows.Window" />
+    /// <seealso cref="System.Windows.Markup.IComponentConnector" />
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// The HTTP client
+        /// </summary>
         private readonly HttpClient _httpClient;
+        /// <summary>
+        /// All species URL
+        /// </summary>
         private const string AllSpeciesUrl = "https://aes.shenlu.me/api/v1/species";
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainWindow"/> class.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
             _httpClient = new HttpClient();
         }
 
+        /// <summary>
+        /// Handles the Click event of the RefreshButton control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private async void RefreshButton_Click(object sender, RoutedEventArgs e)
         {
             ObjectsListBox.Items.Clear();
@@ -40,6 +60,11 @@ namespace TareaApiRestManuel
             }
         }
 
+        /// <summary>
+        /// Handles the SelectionChanged event of the ObjectsListBox control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
         private void ObjectsListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             if (ObjectsListBox.SelectedItem == null) return;
@@ -52,6 +77,11 @@ namespace TareaApiRestManuel
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the CreateButton control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private async void CreateButton_Click(object sender, RoutedEventArgs e)
         {
             var json = CreateTextBox.Text?.Trim();

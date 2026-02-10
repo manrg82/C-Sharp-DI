@@ -9,14 +9,30 @@ using System.Threading.Tasks;
 
 namespace Datagrid.persistence
 {
+    /// <summary>
+    /// 
+    /// </summary>
     class PersonaPersistence
     {
+        /// <summary>
+        /// Gets or sets the persona table.
+        /// </summary>
+        /// <value>
+        /// The persona table.
+        /// </value>
         private DataTable personaTable { get; set;}
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PersonaPersistence"/> class.
+        /// </summary>
         public PersonaPersistence()
         {
             personaTable = new DataTable();
             
         }
+        /// <summary>
+        /// Leers the personas.
+        /// </summary>
+        /// <returns></returns>
         public static List<Persona> leerPersonas()
         {
             Persona p = null;
@@ -33,6 +49,10 @@ namespace Datagrid.persistence
             return personas;
         }
 
+        /// <summary>
+        /// Insertars the persona.
+        /// </summary>
+        /// <param name="persona">The persona.</param>
         public void insertarPersona(Persona persona)
         {
             string sql = "INSERT INTO mydb.persona2 (nombre, apellidos, edad, fechanac) VALUES ('" + 
@@ -43,6 +63,10 @@ namespace Datagrid.persistence
             int a = DBBroker.obtenerAgente().modificar(sql);
         }
 
+        /// <summary>
+        /// Actualizars the persona.
+        /// </summary>
+        /// <param name="persona">The persona.</param>
         public void actualizarPersona(Persona persona)
         {
             string sql = "UPDATE mydb.persona2 SET " +
@@ -54,6 +78,10 @@ namespace Datagrid.persistence
             int a = DBBroker.obtenerAgente().modificar(sql);
         }
 
+        /// <summary>
+        /// Eliminars the persona.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
         public void eliminarPersona(int id)
         {
             string sql = "DELETE FROM mydb.persona2 WHERE idpersona = " + id + ";";

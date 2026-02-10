@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TareaApiRestManuel</name>
+    </assembly>
+    <members>
+        <member name="T:TareaApiRestManuel.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:TareaApiRestManuel.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:TareaApiRestManuel.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:TareaApiRestManuel.MainWindow">
+            <summary>
+            
+            
+            </summary>
+            <seealso cref="T:System.Windows.Window" />
+            <seealso cref="T:System.Windows.Markup.IComponentConnector" />
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:TareaApiRestManuel.MainWindow._httpClient">
+            <summary>
+            The HTTP client
+            </summary>
+        </member>
+        <member name="F:TareaApiRestManuel.MainWindow.AllSpeciesUrl">
+            <summary>
+            All species URL
+            </summary>
+        </member>
+        <member name="M:TareaApiRestManuel.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TareaApiRestManuel.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:TareaApiRestManuel.MainWindow.RefreshButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the RefreshButton control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:TareaApiRestManuel.MainWindow.ObjectsListBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Handles the SelectionChanged event of the ObjectsListBox control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:TareaApiRestManuel.MainWindow.CreateButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the CreateButton control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:TareaApiRestManuel.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
